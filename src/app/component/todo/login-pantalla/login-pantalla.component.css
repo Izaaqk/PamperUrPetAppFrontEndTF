@@ -1,0 +1,357 @@
+.frame-42, .frame-42 * {
+    box-sizing: border-box;
+    }
+.frame-42 {
+   width: 1331px;
+    height: 923px;
+    position: relative;
+   }
+
+.frame-40 {
+   width: 1331px;
+    height: 923px;
+    position: absolute;
+    left: 0px;
+   top: 0px;
+   }
+
+.image-14 {
+   width: 1920px;
+    height: 58px;
+    position: absolute;
+    left: 0px;
+   top: 0px;
+   }
+
+.image-15 {
+   width: 1920px;
+    height: 58px;
+    position: absolute;
+    left: 0px;
+   top: 0px;
+   }
+
+.logo-17 {
+   width: 55px;
+    height: 51px;
+    position: absolute;
+    left: 15px;
+   top: 3px;
+   }
+
+.logo-1 {
+   width: 55px;
+    height: 51px;
+    position: absolute;
+    left: 0px;
+   top: 0px;
+   }
+
+.pamper-ur-pet {
+   color: #ffffff;
+    text-align: left;
+    font: 400 40px 'Poppins', sans-serif;
+    position: absolute;
+    left: 93px;
+   top: 0px;
+    width: 331px;
+    height: 51px;
+   }
+
+.image-202 {
+   width: 1920px;
+    height: 1080px;
+    position: absolute;
+    left: 0px;
+   top: 58px;
+   }
+
+.image-203 {
+   width: 19201px;
+    height: 1080px;
+    position: absolute;
+    left: 0px;
+   top: 58px;
+   }
+
+.image-205 {
+   width: 1920px;
+    height: 1080px;
+    position: absolute;
+    left: 0px;
+   top: 58px;
+   }
+
+.image-32 {
+   border-radius: 0px;
+    position: absolute;
+    left: 370px;
+   top: 182px;
+    overflow: visible;
+   }
+
+.rectangle-4 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 137px;
+    height: 55px;
+    position: absolute;
+    left: 702px;
+   top: 684px;
+   }
+
+.rectangle-6 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 115px;
+    height: 39px;
+    position: absolute;
+    left: 660px;
+   top: 745px;
+   }
+
+.rectangle-5 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #fff0a3, #fff0a3);
+    border-radius: 50px;
+    width: 252px;
+    height: 46px;
+    position: absolute;
+    left: 413px;
+   top: 619px;
+   }
+
+.rectangle-7 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #fff0a3, #fff0a3);
+    border-radius: 50px;
+    width: 336px;
+    height: 46px;
+    position: absolute;
+    left: 422px;
+   top: 462px;
+   }
+
+.rectangle-8 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #fff0a3, #fff0a3);
+    border-radius: 50px;
+    width: 336px;
+    height: 46px;
+    position: absolute;
+    left: 422px;
+   top: 547px;
+   }
+
+.ingresar-como-admin {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 706px;
+   top: 692px;
+    width: 129px;
+    height: 47px;
+   }
+
+.nosotros {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 636px;
+   top: 19px;
+    width: 105px;
+    height: 24px;
+   }
+
+.membres-a {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 765px;
+   top: 16px;
+    width: 105px;
+    height: 24px;
+   }
+
+.group-288 {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-3 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 31px;
+    position: absolute;
+    left: 1034px;
+   top: 13px;
+   }
+
+.i-ngresar {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 1041px;
+   top: 19px;
+    width: 118.94px;
+    height: 21.14px;
+   }
+
+.group-289 {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-32 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 31px;
+    position: absolute;
+    left: 600px;
+   top: 13px;
+   }
+
+.n-osotros {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 607px;
+   top: 19px;
+    width: 118.94px;
+    height: 21.14px;
+   }
+
+.group-290 {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-33 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 31px;
+    position: absolute;
+    left: 742px;
+   top: 13px;
+   }
+
+.membres-a2 {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 749px;
+   top: 19px;
+    width: 118.94px;
+    height: 21.14px;
+   }
+
+.group-291 {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-34 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 31px;
+    position: absolute;
+    left: 887px;
+   top: 13px;
+   }
+
+.cont-ctanos {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 883px;
+   top: 19px;
+    width: 140px;
+    height: 21px;
+   }
+
+.group-292 {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-35 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 31px;
+    position: absolute;
+    left: 1181px;
+   top: 13px;
+   }
+
+.registrarse {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 1188px;
+   top: 19px;
+    width: 118.94px;
+    height: 21.14px;
+   }
+
+.correo {
+   color: #000000;
+    text-align: center;
+    font: 400 24px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 335px;
+   top: 469px;
+    width: 369px;
+    height: 39px;
+   }
+
+.contrase-a {
+   color: #000000;
+    text-align: center;
+    font: 400 24px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 338px;
+   top: 554px;
+    width: 369px;
+    height: 39px;
+   }
+
+.registrarse2 {
+   color: #1d5acf;
+    text-align: center;
+    font: 400 20px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 533px;
+   top: 750px;
+    width: 369px;
+    height: 39px;
+   }
+   .ingresar-como-admin2 {
+    color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 539px;
+    top: 696px;
+    width: 129px;
+    height: 47px;
+    }
+    .rectangle-9 {
+        background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+        border-radius: 50px;
+        width: 198px;
+        height: 72px;
+        position: absolute;
+        left: 504px;
+        top: 673px;
+        }
+

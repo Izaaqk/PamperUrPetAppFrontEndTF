@@ -1,0 +1,520 @@
+.frame-66, .frame-66 * {
+    box-sizing: border-box;
+    }
+.frame-66 {
+   width: 1331px;
+    height: 898px;
+    position: relative;
+   }
+
+.image-98 {
+   width: 1920px;
+    height: 1080px;
+    position: absolute;
+    left: 0px;
+   top: 33px;
+   }
+
+.pago-de-membres-a {
+   color: #00103a;
+    text-align: center;
+    font: 700 48px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 401px;
+   top: 69px;
+    width: 603px;
+    height: 146px;
+   }
+
+.rectangle-54 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, rgba(255, 252, 252, 0.41), rgba(255, 252, 252, 0.41));
+    border-radius: 50px;
+    width: 1239px;
+    height: 524px;
+    position: absolute;
+    left: 65px;
+   top: 181px;
+   }
+
+.image-99 {
+   width: 1920px;
+    height: 58px;
+    position: absolute;
+    left: 0px;
+   top: 0px;
+   }
+
+.image-100 {
+   width: 1920px;
+    height: 58px;
+    position: absolute;
+    left: 0px;
+   top: 0px;
+   }
+
+.logo-30 {
+   width: 55px;
+    height: 51px;
+    position: absolute;
+    left: 23px;
+   top: 4px;
+   }
+
+.logo-1 {
+   width: 55px;
+    height: 51px;
+    position: absolute;
+    left: 0px;
+   top: 0px;
+   }
+
+.pamper-ur-pet {
+   color: #ffffff;
+    text-align: left;
+    font: 400 40px 'Poppins', sans-serif;
+    position: absolute;
+    left: 93px;
+   top: 0px;
+    width: 331px;
+    height: 51px;
+   }
+
+.nosotros {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 632px;
+   top: 20px;
+    width: 105px;
+    height: 24px;
+   }
+
+.membres-a {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 760px;
+   top: 20px;
+    width: 105px;
+    height: 24px;
+   }
+
+.cont-ctanos {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 865px;
+   top: 20px;
+    width: 165px;
+    height: 24px;
+   }
+
+.image-101 {
+   border-radius: 300px;
+    width: 52px;
+    height: 43px;
+    position: absolute;
+    left: 1263px;
+   top: 7px;
+   }
+
+.roberto {
+   color: #ffffff;
+    text-align: center;
+    font: 600 20px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 1167px;
+   top: 18px;
+    width: 84px;
+    height: 27px;
+   }
+
+.image-102 {
+   border-radius: 150px;
+    width: 55px;
+    height: 50px;
+    position: absolute;
+    left: 1260px;
+   top: 4px;
+   }
+
+.group-145 {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-3 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #22abdd, #22abdd);
+    border-radius: 50px;
+    width: 194px;
+    height: 47px;
+    position: absolute;
+    left: 569px;
+   top: 789px;
+   }
+
+.aceptar {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 584px;
+   top: 804px;
+    width: 163px;
+    height: 32px;
+   }
+
+.rectangle-55 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, rgba(255, 252, 252, 0.41), rgba(255, 252, 252, 0.41));
+    border-radius: 50px;
+    width: 558px;
+    height: 60px;
+    position: absolute;
+    left: 417px;
+   top: 210px;
+   }
+
+.rectangle-58 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, rgba(255, 252, 252, 0.41), rgba(255, 252, 252, 0.41));
+    border-radius: 50px;
+    width: 558px;
+    height: 60px;
+    position: absolute;
+    left: 417px;
+   top: 374px;
+   }
+
+.rectangle-59 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, rgba(255, 252, 252, 0.41), rgba(255, 252, 252, 0.41));
+    border-radius: 50px;
+    width: 558px;
+    height: 60px;
+    position: absolute;
+    left: 417px;
+   top: 493px;
+   }
+
+.xxxx-xxxx-xxxx-xxxx {
+   color: #000000;
+    text-align: left;
+    font: 400 32px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 453px;
+   top: 212px;
+    width: 445px;
+    height: 50px;
+   }
+
+.n-mero-de-tarjeta {
+   color: #000000;
+    text-align: left;
+    font: 400 32px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 112px;
+   top: 221px;
+    width: 312px;
+    height: 50px;
+   }
+
+.nombre-completo {
+   color: #000000;
+    text-align: left;
+    font: 400 32px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 112px;
+   top: 379px;
+    width: 312px;
+    height: 50px;
+   }
+
+.roberto-g-mez {
+   color: #000000;
+    text-align: left;
+    font: 400 32px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 443px;
+   top: 379px;
+    width: 312px;
+    height: 50px;
+   }
+
+.membres-a-elegida {
+   color: #000000;
+    text-align: left;
+    font: 400 32px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 105px;
+   top: 501px;
+    width: 312px;
+    height: 50px;
+   }
+
+.monto-a-pagar {
+   color: #000000;
+    text-align: left;
+    font: 400 32px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 391px;
+   top: 617px;
+    width: 312px;
+    height: 50px;
+   }
+
+.standard {
+   color: #000000;
+    text-align: left;
+    font: 400 32px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 439px;
+   top: 501px;
+    width: 312px;
+    height: 50px;
+   }
+
+.fv {
+   color: #000000;
+    text-align: left;
+    font: 400 32px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 332px;
+   top: 299px;
+    width: 44px;
+    height: 50px;
+   }
+
+.cvv {
+   color: #000000;
+    text-align: left;
+    font: 400 32px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 663px;
+   top: 299px;
+    width: 76px;
+    height: 50px;
+   }
+
+.rectangle-56 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, rgba(255, 252, 252, 0.41), rgba(255, 252, 252, 0.41));
+    border-radius: 50px;
+    width: 136px;
+    height: 60px;
+    position: absolute;
+    left: 417px;
+   top: 292px;
+   }
+
+._09-24 {
+   color: #000000;
+    text-align: left;
+    font: 400 32px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 436px;
+   top: 297px;
+   }
+
+.rectangle-57 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, rgba(255, 252, 252, 0.41), rgba(255, 252, 252, 0.41));
+    border-radius: 50px;
+    width: 136px;
+    height: 60px;
+    position: absolute;
+    left: 755px;
+   top: 289px;
+   }
+
+.rectangle-60 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, rgba(255, 252, 252, 0.41), rgba(255, 252, 252, 0.41));
+    border-radius: 50px;
+    width: 136px;
+    height: 60px;
+    position: absolute;
+    left: 669px;
+   top: 606px;
+   }
+
+.xxx {
+   color: #000000;
+    text-align: left;
+    font: 400 32px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 787px;
+   top: 294px;
+   }
+
+.s-60-00 {
+   color: #000000;
+    text-align: left;
+    font: 400 32px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 676px;
+   top: 614px;
+   }
+
+.image-142 {
+   width: 1920px;
+    height: 58px;
+    position: absolute;
+    left: 0px;
+   top: 1px;
+   }
+
+.image-143 {
+   width: 1920px;
+    height: 58px;
+    position: absolute;
+    left: 0px;
+   top: 1px;
+   }
+
+.logo-41 {
+   width: 55px;
+    height: 51px;
+    position: absolute;
+    left: 23px;
+   top: 5px;
+   }
+
+.pamper-ur-pet2 {
+   color: #ffffff;
+    text-align: left;
+    font: 400 40px 'Poppins', sans-serif;
+    position: absolute;
+    left: 93px;
+   top: 1px;
+    width: 331px;
+    height: 51px;
+   }
+
+.group-225 {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-32 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 30.97px;
+    position: absolute;
+    left: 735px;
+   top: 12px;
+   }
+
+.membres-a2 {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 742px;
+   top: 17.99px;
+    width: 118.94px;
+    height: 21.11px;
+   }
+
+.group-226 {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-33 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 30.97px;
+    position: absolute;
+    left: 1034px;
+   top: 10px;
+   }
+
+.mascotas {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 1041px;
+   top: 15.99px;
+    width: 118.94px;
+    height: 21.11px;
+   }
+
+.group-227 {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-34 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 30.97px;
+    position: absolute;
+    left: 586px;
+   top: 12px;
+   }
+
+.inicio {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 593px;
+   top: 17.99px;
+    width: 118.94px;
+    height: 21.11px;
+   }
+
+.group-228 {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-35 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 30.97px;
+    position: absolute;
+    left: 1183px;
+   top: 10px;
+   }
+
+.perfil {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 1190px;
+   top: 15.99px;
+    width: 118.94px;
+    height: 21.11px;
+   }
+
+.group-229 {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-36 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 30.97px;
+    position: absolute;
+    left: 884px;
+   top: 12px;
+   }
+
+.reservas {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 891px;
+   top: 17.99px;
+    width: 118.94px;
+    height: 21.11px;
+   }
+

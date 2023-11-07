@@ -1,0 +1,331 @@
+.frame-49, .frame-49 * {
+    box-sizing: border-box;
+    }
+.frame-49 {
+   width: 1331px;
+    height: 924px;
+    position: relative;
+   }
+
+.group-144 {
+   position: absolute;
+    inset: 0;
+   }
+
+.image-42 {
+   width: 1920px;
+    height: 1080px;
+    position: absolute;
+    left: 0px;
+   top: 59px;
+   }
+
+.image-37 {
+   width: 1920px;
+    height: 58px;
+    position: absolute;
+    left: 0px;
+   top: 0px;
+   }
+
+.image-38 {
+   width: 1920px;
+    height: 58px;
+    position: absolute;
+    left: 0px;
+   top: 0px;
+   }
+
+.pamper-ur-pet {
+   color: #ffffff;
+    text-align: left;
+    font: 400 40px 'Poppins', sans-serif;
+    position: absolute;
+    left: 93px;
+   top: 0px;
+    width: 331px;
+    height: 51px;
+   }
+
+.logo-20 {
+   width: 55px;
+    height: 51px;
+    position: absolute;
+    left: 16px;
+   top: 3px;
+   }
+
+.logo-1 {
+   width: 55px;
+    height: 51px;
+    position: absolute;
+    left: 0px;
+   top: 0px;
+   }
+
+.image-50 {
+   width: 510px;
+    height: 305px;
+    position: absolute;
+    left: 411px;
+   top: 207px;
+   }
+
+.modificar-datos-de-mascota {
+   color: #00103a;
+    text-align: center;
+    font: 700 48px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 361px;
+   top: 74px;
+    width: 609px;
+    height: 131px;
+   }
+
+.frame-18 {
+   background: #ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #1e90ff;
+    border-width: 1px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 486px;
+    height: 36px;
+    position: absolute;
+    left: 550px;
+   top: 581px;
+   }
+
+.nombre {
+   color: #000000;
+    text-align: left;
+    font: 400 32px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 361px;
+   top: 577px;
+    width: 243px;
+    height: 40px;
+   }
+
+.raza {
+   color: #000000;
+    text-align: left;
+    font: 400 32px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 361px;
+   top: 663px;
+    width: 149px;
+    height: 48px;
+   }
+
+.frame-19 {
+   background: #ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #1e90ff;
+    border-width: 1px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 486px;
+    height: 36px;
+    position: absolute;
+    left: 550px;
+   top: 675px;
+   }
+
+.edad {
+   color: #000000;
+    text-align: left;
+    font: 400 32px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 361px;
+   top: 753px;
+    width: 225px;
+    height: 48px;
+   }
+
+.frame-20 {
+   background: #ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #1e90ff;
+    border-width: 1px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 486px;
+    height: 36px;
+    position: absolute;
+    left: 550px;
+   top: 764px;
+   }
+
+.group-115 {
+   width: 192px;
+    height: 52px;
+    position: static;
+   }
+
+.rectangle-3 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 192px;
+    height: 52px;
+    position: absolute;
+    left: 586px;
+   top: 843px;
+   }
+
+.guardar {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 600.97px;
+   top: 859.75px;
+    width: 161.17px;
+    height: 18.51px;
+   }
+
+.group-200 {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-32 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 30.97px;
+    position: absolute;
+    left: 735px;
+   top: 16px;
+   }
+
+.membres-a {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 742px;
+   top: 21.99px;
+    width: 118.94px;
+    height: 21.11px;
+   }
+
+.group-201 {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-33 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 30.97px;
+    position: absolute;
+    left: 1034px;
+   top: 16px;
+   }
+
+.mascotas {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 1041px;
+   top: 21.99px;
+    width: 118.94px;
+    height: 21.11px;
+   }
+
+.group-202 {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-34 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 30.97px;
+    position: absolute;
+    left: 586px;
+   top: 16px;
+   }
+
+.inicio {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 593px;
+   top: 21.99px;
+    width: 118.94px;
+    height: 21.11px;
+   }
+
+.group-203 {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-35 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 30.97px;
+    position: absolute;
+    left: 1183px;
+   top: 16px;
+   }
+
+.perfil {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 1190px;
+   top: 22px;
+    width: 118.94px;
+    height: 21.11px;
+   }
+
+.group-204 {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-36 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 30.97px;
+    position: absolute;
+    left: 884px;
+   top: 18px;
+   }
+
+.reservas {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 891px;
+   top: 23.99px;
+    width: 118.94px;
+    height: 21.11px;
+   }
+

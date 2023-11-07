@@ -1,0 +1,71 @@
+<form [formGroup]="form" (submit)="aceptar()">
+<div class="frame-48" >
+    <img class="image-42" src="../../../assets/image-252.png" />
+    <div class="pamper-ur-pet" >
+PAMPER UR PET </div>
+    <img class="image-50" src="../../../assets/image-253.png" />
+    <div class="registrar-mascota" >
+Registrar Mascota </div>
+    <div class="nombre" >
+Nombre: </div>
+    <div class="raza" >
+Raza:  </div>
+    <div class="edad" >
+Edad:  </div>
+    <div class="rectangle-3" >
+    </div>
+    <img class="image-129" src="../../../assets/image-250.png" />
+    <img class="image-130" src="../../../assets/image-251.png" />
+    <div class="logo-35" >
+          <img class="logo-1" src="../../../assets/logo-1.png" />
+    </div>
+    <div class="pamper-ur-pet2" >
+PAMPER UR PET </div>
+    <div class="group-96" >
+          <div class="rectangle-32" >
+          </div>
+    </div>
+    <div class="group-92" >
+          <div class="rectangle-33" >
+          </div>
+    </div>
+    <div class="group-93" >
+          <div class="rectangle-34" >
+          </div>
+    </div>
+    <div class="group-94" >
+          <div class="rectangle-35" >
+          </div>
+          <div class="inicio">
+            <a routerLink="/todos/bienvenida">Inicio</a>
+        </div>
+        
+        <div class= "perfil">
+            <a routerLink="/todos/getpropietario">perfil</a>
+        </div>
+        
+        <div class="mascotas">
+            <a routerLink="/todos/getmascota">mascotas</a>
+        </div>
+        <div class="reservas">
+            <a routerLink="/todos/getdeletereserva">Reservas</a>
+        </div>        
+        <div class="frame-18">
+            <label for="nombre_mas"></label>
+            <input formControlName="nombre_mas" type="text" id="nombre_mas" placeholder="Nombre de la Mascota">
+        </div>
+        
+        <div class="frame-19">
+            <label for="raza_mas"></label>
+            <input formControlName="raza_mas" type="text" id="raza_mas" placeholder="Raza de la Mascota">
+        </div>
+        
+        <div class="frame-20">
+            <label for="edad_mas"></label>
+            <input formControlName="edad_mas" type="text" id="edad_mas" placeholder="Edad de la Mascota">
+        </div>
+        <button type="submit" class="registrar">Registrar</button>
+        
+    </div>
+</div>
+</form>

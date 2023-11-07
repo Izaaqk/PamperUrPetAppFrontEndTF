@@ -1,0 +1,297 @@
+.frame-50, .frame-50 * {
+    box-sizing: border-box;
+    }
+.frame-50 {
+   width: 1331px;
+    height: 924px;
+    position: relative;
+   }
+
+.group-147 {
+   position: absolute;
+    inset: 0;
+   }
+
+.image-42 {
+   width: 1920px;
+    height: 1080px;
+    position: absolute;
+    left: 0px;
+   top: 59px;
+   }
+
+.image-37 {
+   width: 1920px;
+    height: 58px;
+    position: absolute;
+    left: 0px;
+   top: 0px;
+   }
+
+.image-38 {
+   width: 1920px;
+    height: 58px;
+    position: absolute;
+    left: 0px;
+   top: 0px;
+   }
+
+.pamper-ur-pet {
+   color: #ffffff;
+    text-align: left;
+    font: 400 40px 'Poppins', sans-serif;
+    position: absolute;
+    left: 93px;
+   top: 0px;
+    width: 331px;
+    height: 51px;
+   }
+
+.logo-20 {
+   width: 55px;
+    height: 51px;
+    position: absolute;
+    left: 16px;
+   top: 3px;
+   }
+
+.logo-1 {
+   width: 55px;
+    height: 51px;
+    position: absolute;
+    left: 0px;
+   top: 0px;
+   }
+
+.eliminar-datos-de-mascota {
+   color: #00103a;
+    text-align: center;
+    font: 700 48px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 361px;
+   top: 74px;
+    width: 609px;
+    height: 131px;
+   }
+
+.est-seguro-que-desea-eliminar-los-datos-de-esta-mascota {
+   color: #00103a;
+    text-align: center;
+    font: 400 40px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 686px;
+   top: 332px;
+    width: 609px;
+    height: 131px;
+   }
+
+.nombre-blacki {
+   color: #000000;
+    text-align: left;
+    font: 400 32px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 193px;
+   top: 574px;
+    width: 243px;
+    height: 40px;
+   }
+
+.raza-pug {
+   color: #000000;
+    text-align: left;
+    font: 400 32px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 193px;
+   top: 648px;
+    width: 149px;
+    height: 48px;
+   }
+
+.edad-8-meses {
+   color: #000000;
+    text-align: left;
+    font: 400 32px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 193px;
+   top: 727px;
+    width: 225px;
+    height: 48px;
+   }
+
+.group-115 {
+   width: 218px;
+    height: 59px;
+    position: static;
+   }
+
+.rectangle-3 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 218px;
+    height: 59px;
+    position: absolute;
+    left: 1029px;
+   top: 530px;
+   }
+
+.confirmar {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 1046px;
+   top: 549px;
+    width: 183px;
+    height: 21px;
+   }
+
+.group-131 {
+   width: 218px;
+    height: 59px;
+    position: static;
+   }
+
+.rectangle-32 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 218px;
+    height: 59px;
+    position: absolute;
+    left: 730px;
+   top: 530px;
+   }
+
+.cancelar {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 747px;
+   top: 549px;
+    width: 183px;
+    height: 21px;
+   }
+
+.image-43 {
+   width: 473px;
+    height: 294px;
+    position: absolute;
+    left: 199px;
+   top: 236px;
+   }
+
+.registrar {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 630px;
+   top: 826px;
+    width: 183px;
+    height: 21px;
+   }
+
+.group-206 {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-33 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 30.97px;
+    position: absolute;
+    left: 1031px;
+   top: 12px;
+   }
+
+.mascotas {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 1038px;
+   top: 17.99px;
+    width: 118.94px;
+    height: 21.11px;
+   }
+
+.group-207 {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-34 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 30.97px;
+    position: absolute;
+    left: 715px;
+   top: 14px;
+   }
+
+.inicio {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 722px;
+   top: 19.99px;
+    width: 118.94px;
+    height: 21.11px;
+   }
+
+.group-208 {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-35 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 30.97px;
+    position: absolute;
+    left: 1180px;
+   top: 12px;
+   }
+
+.perfil {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 1187px;
+   top: 17.99px;
+    width: 118.94px;
+    height: 21.11px;
+   }
+
+.group-209 {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-36 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 30.97px;
+    position: absolute;
+    left: 881px;
+   top: 14px;
+   }
+
+.reservas {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 888px;
+   top: 19.99px;
+    width: 118.94px;
+    height: 21.11px;
+   }
+

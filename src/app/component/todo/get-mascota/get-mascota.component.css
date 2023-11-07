@@ -1,0 +1,479 @@
+.frame-47, .frame-47 * {
+    box-sizing: border-box;
+    }
+.frame-47 {
+   width: 1331px;
+    height: 922px;
+    position: relative;
+   }
+
+.group-134 {
+   position: absolute;
+    inset: 0;
+   }
+
+.group-169 {
+   width: 1331px;
+    height: 58px;
+    position: static;
+   }
+
+.image-33 {
+   width: 1920px;
+    height: 58px;
+    position: absolute;
+    left: 0px;
+   top: 0px;
+   }
+
+.pamper-ur-pet {
+   color: #ffffff;
+    text-align: left;
+    font: 400 40px 'Poppins', sans-serif;
+    position: absolute;
+    left: 93px;
+   top: 0px;
+    width: 331px;
+    height: 51px;
+   }
+
+.image-35 {
+   width: 1920px;
+    height: 1080px;
+    position: absolute;
+    left: 0px;
+   top: 58px;
+   }
+
+.nombre-luna {
+   color: #000000;
+    text-align: left;
+    font: 400 32px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 544px;
+   top: 124px;
+    width: 243px;
+    height: 40px;
+   }
+
+.raza-golden {
+   color: #000000;
+    text-align: left;
+    font: 400 32px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 544px;
+   top: 217px;
+    width: 377px;
+    height: 48px;
+   }
+
+.edad-2-a-os {
+   color: #000000;
+    text-align: left;
+    font: 400 32px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 544px;
+   top: 299px;
+    width: 225px;
+    height: 48px;
+   }
+
+.image-43 {
+   width: 360px;
+    height: 234px;
+    position: absolute;
+    left: 93px;
+   top: 393px;
+   }
+
+.group-96 {
+   width: 218px;
+    height: 59px;
+    position: static;
+   }
+
+.rectangle-3 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 218px;
+    height: 59px;
+    position: absolute;
+    left: 1052px;
+   top: 78px;
+   }
+
+.registrar-mascota {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 1069px;
+   top: 97px;
+    width: 183px;
+    height: 21px;
+   }
+
+.group-97 {
+   width: 194px;
+    height: 47px;
+    position: static;
+   }
+
+.rectangle-32 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 194px;
+    height: 47px;
+    position: absolute;
+    left: 818px;
+   top: 158px;
+   }
+
+.modificar-datos {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 833.13px;
+   top: 173.14px;
+    width: 162.85px;
+    height: 16.73px;
+   }
+
+.group-100 {
+   width: 194px;
+    height: 47px;
+    position: static;
+   }
+
+.rectangle-33 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 194px;
+    height: 47px;
+    position: absolute;
+    left: 818px;
+   top: 681px;
+   }
+
+.modificar-datos2 {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 833.13px;
+   top: 696.14px;
+    width: 162.85px;
+    height: 16.73px;
+   }
+
+.group-99 {
+   width: 194px;
+    height: 47px;
+    position: static;
+   }
+
+.rectangle-34 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 194px;
+    height: 47px;
+    position: absolute;
+    left: 818px;
+   top: 420px;
+   }
+
+.modificar-datos3 {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 833.13px;
+   top: 435.14px;
+    width: 162.85px;
+    height: 16.73px;
+   }
+
+.group-98 {
+   width: 194px;
+    height: 47px;
+    position: static;
+   }
+
+.rectangle-35 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 194px;
+    height: 47px;
+    position: absolute;
+    left: 818px;
+   top: 227px;
+   }
+
+.eliminar {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 833.13px;
+   top: 242.14px;
+    width: 162.85px;
+    height: 16.73px;
+   }
+
+.group-102 {
+   width: 194px;
+    height: 47px;
+    position: static;
+   }
+
+.rectangle-36 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 194px;
+    height: 47px;
+    position: absolute;
+    left: 817px;
+   top: 753px;
+   }
+
+.eliminar2 {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 832.13px;
+   top: 768.14px;
+    width: 162.85px;
+    height: 16.73px;
+   }
+
+.group-101 {
+   width: 194px;
+    height: 47px;
+    position: static;
+   }
+
+.rectangle-37 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 194px;
+    height: 47px;
+    position: absolute;
+    left: 817px;
+   top: 490px;
+   }
+
+.eliminar3 {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 832.13px;
+   top: 505.14px;
+    width: 162.85px;
+    height: 16.73px;
+   }
+
+.image-44 {
+   width: 360px;
+    height: 226px;
+    position: absolute;
+    left: 93px;
+   top: 659px;
+   }
+
+.nombre-blacki {
+   color: #000000;
+    text-align: left;
+    font: 400 32px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 544px;
+   top: 393px;
+    width: 243px;
+    height: 40px;
+   }
+
+.raza-pug {
+   color: #000000;
+    text-align: left;
+    font: 400 32px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 544px;
+   top: 471px;
+    width: 149px;
+    height: 48px;
+   }
+
+.edad-8-meses {
+   color: #000000;
+    text-align: left;
+    font: 400 32px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 544px;
+   top: 557px;
+    width: 225px;
+    height: 48px;
+   }
+
+.nombre-nieve {
+   color: #000000;
+    text-align: left;
+    font: 400 32px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 544px;
+   top: 681px;
+    width: 243px;
+    height: 40px;
+   }
+
+.raza-samoyedo {
+   color: #000000;
+    text-align: left;
+    font: 400 32px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 544px;
+   top: 755px;
+    width: 262px;
+    height: 48px;
+   }
+
+.edad-4-meses {
+   color: #000000;
+    text-align: left;
+    font: 400 32px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 544px;
+   top: 825px;
+    width: 225px;
+    height: 48px;
+   }
+
+.image-46 {
+   width: 360px;
+    height: 235px;
+    position: absolute;
+    left: 93px;
+   top: 126px;
+   }
+
+.logo-19 {
+   width: 55px;
+    height: 51px;
+    position: absolute;
+    left: 23px;
+   top: 4px;
+   }
+
+.logo-1 {
+   width: 55px;
+    height: 51px;
+    position: absolute;
+    left: 0px;
+   top: 0px;
+   }
+
+.group-196 {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-38 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 30.97px;
+    position: absolute;
+    left: 1025px;
+   top: 13px;
+   }
+
+.mascotas {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 1032px;
+   top: 18.99px;
+    width: 118.94px;
+    height: 21.11px;
+   }
+
+.group-197 {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-39 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 30.97px;
+    position: absolute;
+    left: 711px;
+   top: 15px;
+   }
+
+.inicio {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 718px;
+   top: 20.99px;
+    width: 118.94px;
+    height: 21.11px;
+   }
+
+.group-198 {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-310 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 30.97px;
+    position: absolute;
+    left: 1174px;
+   top: 13px;
+   }
+
+.perfil {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 1181px;
+   top: 18.99px;
+    width: 118.94px;
+    height: 21.11px;
+   }
+
+.group-199 {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-311 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 30.97px;
+    position: absolute;
+    left: 875px;
+   top: 15px;
+   }
+
+.reservas {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 882px;
+   top: 20.99px;
+    width: 118.94px;
+    height: 21.11px;
+   }
+

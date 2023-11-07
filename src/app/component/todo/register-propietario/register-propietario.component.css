@@ -1,0 +1,368 @@
+.frame-38, .frame-38 * {
+    box-sizing: border-box;
+    }
+.frame-38 {
+   width: 1331px;
+    height: 926px;
+    position: relative;
+   }
+
+.rectangle-91 {
+   background: #d9d9d9;
+    width: 477px;
+    height: 728px;
+    position: absolute;
+    left: 405px;
+   top: 129px;
+   }
+
+.image-14 {
+   width: 1331px;
+    height: 58px;
+    position: absolute;
+    left: 0px;
+   top: 3px;
+   }
+
+.logo-10 {
+   width: 55px;
+    height: 51px;
+    position: absolute;
+    left: 30px;
+   top: 11px;
+   }
+
+.logo-1 {
+   width: 55px;
+    height: 51px;
+    position: absolute;
+    left: 0px;
+   top: 0px;
+   }
+
+.pamper-ur-pet {
+   color: #ffffff;
+    text-align: left;
+    font: 400 40px 'Poppins', sans-serif;
+    position: absolute;
+    left: 108px;
+   top: 0px;
+    width: 331px;
+    height: 51px;
+   }
+   .image-153 {
+    width: 1920px;
+     height: 58px;
+     position: absolute;
+     left: 0px;
+    top: 0px;
+    }
+.image-16 {
+   width: 1920px;
+    height: 1080px;
+    position: absolute;
+    left: 0px;
+   top: 61px;
+   }
+
+.image-17 {
+   width: 1920px;
+    height: 1080px;
+    position: absolute;
+    left: 0px;
+   top: 61px;
+   }
+
+.registrarse {
+   color: #000000;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 433px;
+   top: 168px;
+   }
+
+.rectangle-92 {
+   background: #f7ff97;
+    border-radius: 46px;
+    width: 558px;
+    height: 764px;
+    position: absolute;
+    left: 365px;
+   top: 129px;
+   }
+
+.rectangle-99 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 31px;
+    position: absolute;
+    left: 591px;
+   top: 826px;
+   }
+
+.guardar {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 598px;
+   top: 831px;
+    width: 118.94px;
+    height: 21.14px;
+   }
+
+.rectangle-93 {
+   background: #fdbd4e;
+    border-radius: 22px;
+    width: 424px;
+    height: 75px;
+    position: absolute;
+    left: 430px;
+   top: 696px;
+   }
+
+.rectangle-97 {
+   background: #fdbd4e;
+    border-radius: 22px;
+    width: 424px;
+    height: 75px;
+    position: absolute;
+    left: 430px;
+   top: 393px;
+   }
+
+.rectangle-98 {
+   background: #fdbd4e;
+    border-radius: 22px;
+    width: 424px;
+    height: 75px;
+    position: absolute;
+    left: 430px;
+   top: 290px;
+   }
+
+.rectangle-96 {
+   background: #fdbd4e;
+    border-radius: 22px;
+    width: 424px;
+    height: 75px;
+    position: absolute;
+    left: 430px;
+   top: 493px;
+   }
+
+.rectangle-95 {
+   background: #fdbd4e;
+    border-radius: 22px;
+    width: 424px;
+    height: 75px;
+    position: absolute;
+    left: 430px;
+   top: 596px;
+   }
+
+.registrarse2 {
+   color: #000000;
+    text-align: center;
+    font: 600 64px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 410px;
+   top: 184px;
+   }
+
+.nombre-y-apellido {
+   color: #000000;
+    text-align: center;
+    font: 600 20px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 448px;
+   top: 316px;
+   }
+
+.n-mero-de-celular {
+   color: #000000;
+    text-align: center;
+    font: 600 20px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 443px;
+   top: 419px;
+   }
+
+.correo {
+   color: #000000;
+    text-align: center;
+    font: 600 20px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 448px;
+   top: 519px;
+   }
+
+.contrase-a {
+   color: #000000;
+    text-align: center;
+    font: 600 20px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 448px;
+   top: 622px;
+   }
+
+.elegir-rol {
+   color: #000000;
+    text-align: center;
+    font: 600 20px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 450px;
+   top: 724px;
+   }
+
+.polygon-1 {
+   position: absolute;
+    left: 819px;
+   top: 748px;
+    transform: translate(-35.45px, -26.25px);
+    overflow: visible;
+   }
+
+.membres-a {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 775px;
+   top: 18px;
+    width: 105px;
+    height: 24px;
+   }
+
+.group-283 {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-3 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 31px;
+    position: absolute;
+    left: 1044px;
+   top: 15px;
+   }
+
+.i-ngresar {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 1051px;
+   top: 21px;
+    width: 118.94px;
+    height: 21.14px;
+   }
+
+.group-284 {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-32 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 31px;
+    position: absolute;
+    left: 610px;
+   top: 15px;
+   }
+
+.n-osotros {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 617px;
+   top: 21px;
+    width: 118.94px;
+    height: 21.14px;
+   }
+
+.group-285 {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-33 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 31px;
+    position: absolute;
+    left: 752px;
+   top: 15px;
+   }
+
+.membres-a2 {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 759px;
+   top: 21px;
+    width: 118.94px;
+    height: 21.14px;
+   }
+
+.group-286 {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-34 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 31px;
+    position: absolute;
+    left: 897px;
+   top: 15px;
+   }
+
+.cont-ctanos {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 893px;
+   top: 21px;
+    width: 140px;
+    height: 21px;
+   }
+
+.group-287 {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-35 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 31px;
+    position: absolute;
+    left: 1191px;
+   top: 15px;
+   }
+
+.registrarse3 {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 1198px;
+   top: 21px;
+    width: 118.94px;
+    height: 21.14px;
+   }
+

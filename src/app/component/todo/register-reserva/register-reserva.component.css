@@ -1,0 +1,333 @@
+.frame-52, .frame-52 * {
+    box-sizing: border-box;
+    }
+.frame-52 {
+   width: 1331px;
+    height: 920px;
+    position: relative;
+   }
+
+.group-177 {
+   position: absolute;
+    inset: 0;
+   }
+
+.grupo-paseadores {
+   width: 1331px;
+    height: 865px;
+    position: static;
+   }
+
+.image-23 {
+   width: 1920px;
+    height: 1080px;
+    position: absolute;
+    left: 0px;
+   top: 55px;
+   }
+
+.paseador {
+   color: #000000;
+    text-align: left;
+    font: 400 32px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 306px;
+   top: 491px;
+    width: 193px;
+    height: 48px;
+   }
+
+.registrar-reserva {
+   color: #00103a;
+    text-align: center;
+    font: 700 48px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 371px;
+   top: 152px;
+    width: 609px;
+    height: 73px;
+   }
+
+.fecha-inicio {
+   color: #000000;
+    text-align: left;
+    font: 400 32px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 281px;
+   top: 300px;
+    width: 243px;
+    height: 40px;
+   }
+
+.fecha-fin {
+   color: #000000;
+    text-align: left;
+    font: 400 32px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 315px;
+   top: 396px;
+    width: 149px;
+    height: 48px;
+   }
+
+.frame-19 {
+   background: #ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #1e90ff;
+    border-width: 1px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 486px;
+    height: 36px;
+    position: absolute;
+    left: 511px;
+   top: 399px;
+   }
+
+.mascota {
+   color: #000000;
+    text-align: left;
+    font: 400 32px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 312px;
+   top: 577px;
+    width: 202px;
+    height: 40px;
+   }
+
+.frame-20 {
+   background: #ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #1e90ff;
+    border-width: 1px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 486px;
+    height: 36px;
+    position: absolute;
+    left: 504px;
+   top: 497px;
+   }
+
+.group-115 {
+   width: 218px;
+    height: 59px;
+    position: static;
+   }
+
+.rectangle-3 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 218px;
+    height: 59px;
+    position: absolute;
+    left: 529px;
+   top: 805px;
+   }
+
+.registrar {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 546px;
+   top: 824px;
+    width: 183px;
+    height: 21px;
+   }
+
+.frame-21 {
+   background: #ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #1e90ff;
+    border-width: 1px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 486px;
+    height: 36px;
+    position: absolute;
+    left: 504px;
+   top: 590px;
+   }
+
+.frame-212 {
+   background: #ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #1e90ff;
+    border-width: 1px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 486px;
+    height: 36px;
+    position: absolute;
+    left: 511px;
+   top: 307px;
+   }
+
+.image-136 {
+   width: 1920px;
+    height: 58px;
+    position: absolute;
+    left: 0px;
+   top: 0px;
+   }
+
+.image-137 {
+   width: 1920px;
+    height: 58px;
+    position: absolute;
+    left: 0px;
+   top: 0px;
+   }
+
+.logo-38 {
+   width: 55px;
+    height: 51px;
+    position: absolute;
+    left: 18px;
+   top: 8px;
+   }
+
+.logo-1 {
+   width: 55px;
+    height: 51px;
+    position: absolute;
+    left: 0px;
+   top: 0px;
+   }
+
+.pamper-ur-pet {
+   color: #ffffff;
+    text-align: left;
+    font: 400 40px 'Poppins', sans-serif;
+    position: absolute;
+    left: 93px;
+   top: 0px;
+    width: 331px;
+    height: 51px;
+   }
+
+.group-216 {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-32 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 30.97px;
+    position: absolute;
+    left: 1010px;
+   top: 15px;
+   }
+
+.mascotas {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 1017px;
+   top: 20.99px;
+    width: 118.94px;
+    height: 21.11px;
+   }
+
+.group-217 {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-33 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 30.97px;
+    position: absolute;
+    left: 701px;
+   top: 16px;
+   }
+
+.inicio {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 708px;
+   top: 21.99px;
+    width: 118.94px;
+    height: 21.11px;
+   }
+
+.group-218 {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-34 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 30.97px;
+    position: absolute;
+    left: 1159px;
+   top: 14px;
+   }
+
+.perfil {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 1166px;
+   top: 19.99px;
+    width: 118.94px;
+    height: 21.11px;
+   }
+
+.group-219 {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-35 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 30.97px;
+    position: absolute;
+    left: 860px;
+   top: 17px;
+   }
+
+.reservas {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 867px;
+   top: 22.99px;
+    width: 118.94px;
+    height: 21.11px;
+   }
+

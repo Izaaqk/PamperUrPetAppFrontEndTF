@@ -1,0 +1,389 @@
+.frame-69, .frame-69 * {
+    box-sizing: border-box;
+    }
+.frame-69 {
+   width: 1331px;
+    height: 922px;
+    position: relative;
+   }
+
+.group-170 {
+   position: absolute;
+    inset: 0;
+   }
+
+.image-52 {
+   width: 1920px;
+    height: 1080px;
+    position: absolute;
+    left: 0px;
+   top: 57px;
+   }
+
+.modificar-perfil {
+   color: #000000;
+    text-align: center;
+    font: 500 24px/20px 'Inter', sans-serif;
+    position: absolute;
+    left: 459px;
+   top: 140px;
+    width: 353px;
+    height: 40px;
+   }
+
+.frame-11 {
+   background: #22abdf;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 308px;
+    height: 40px;
+    position: absolute;
+    left: 488px;
+   top: 188px;
+   }
+
+.agrega-una-foto-de-perfil {
+   color: #ffffff;
+    text-align: center;
+    font: 500 22px/20px 'Inter', sans-serif;
+    position: relative;
+   }
+
+.frame-12 {
+   background: #22abdf;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 308px;
+    height: 40px;
+    position: absolute;
+    left: 429px;
+   top: 423px;
+   }
+
+.nombres-y-apellidos {
+   color: #ffffff;
+    text-align: center;
+    font: 500 22px/20px 'Inter', sans-serif;
+    position: relative;
+   }
+
+.frame-13 {
+   background: #22abdf;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 308px;
+    height: 40px;
+    position: absolute;
+    left: 429px;
+   top: 564px;
+   }
+
+.n-mero-de-celular {
+   color: #ffffff;
+    text-align: center;
+    font: 500 22px/20px 'Inter', sans-serif;
+    position: relative;
+    transform-origin: 0 0;
+    transform: rotate(-0.731deg) scale(1, 1);
+   }
+
+.frame-14 {
+   background: #22abdf;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 308px;
+    height: 40px;
+    position: absolute;
+    left: 429px;
+   top: 708px;
+   }
+
+.correo {
+   color: #ffffff;
+    text-align: center;
+    font: 500 22px/20px 'Inter', sans-serif;
+    position: relative;
+   }
+
+.frame-15 {
+   background: #ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #1e90ff;
+    border-width: 1px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 487px;
+    height: 72px;
+    position: absolute;
+    left: 427px;
+   top: 620px;
+   }
+
+.n-mero-de-celular2 {
+   color: rgba(24, 37, 56, 0.44);
+    text-align: center;
+    font: 500 22px/20px 'Inter', sans-serif;
+    position: relative;
+    width: 224px;
+    height: 41px;
+   }
+
+.frame-16 {
+   background: #ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #1e90ff;
+    border-width: 1px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 495px;
+    height: 80px;
+    position: absolute;
+    left: 429px;
+   top: 758px;
+   }
+
+.ejemplo-gmail-com {
+   color: rgba(24, 37, 56, 0.44);
+    text-align: center;
+    font: 500 22px/20px 'Inter', sans-serif;
+    position: relative;
+    width: 230px;
+    height: 30px;
+   }
+
+.frame-17 {
+   background: #ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #1e90ff;
+    border-width: 1px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 492px;
+    height: 72px;
+    position: absolute;
+    left: 423px;
+   top: 477px;
+   }
+
+.nombre-y-apellidos {
+   color: rgba(24, 37, 56, 0.44);
+    text-align: center;
+    font: 500 22px/20px 'Inter', sans-serif;
+    position: relative;
+    width: 263px;
+    height: 26px;
+   }
+
+.image-53 {
+   border-radius: 300px;
+    width: 184px;
+    height: 148px;
+    position: absolute;
+    left: 539px;
+   top: 250px;
+   }
+
+.image-54 {
+   width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 666px;
+   top: 352px;
+   }
+
+.paseador {
+   color: #00103a;
+    text-align: center;
+    font: 700 48px 'Open Sans', sans-serif;
+    position: absolute;
+    left: 474px;
+   top: 70px;
+    width: 334px;
+   }
+
+.group-113 {
+   width: 132px;
+    height: 31px;
+    position: static;
+   }
+
+.rectangle-3 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 31px;
+    position: absolute;
+    left: 612px;
+   top: 865px;
+   }
+
+.guardar {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 619px;
+   top: 870px;
+    width: 118.94px;
+    height: 21.14px;
+   }
+
+.image-133 {
+   width: 1920px;
+    height: 58px;
+    position: absolute;
+    left: 0px;
+   top: 0px;
+   }
+
+.image-134 {
+   width: 1920px;
+    height: 58px;
+    position: absolute;
+    left: 0px;
+   top: 0px;
+   }
+
+.logo-37 {
+   width: 55px;
+    height: 51px;
+    position: absolute;
+    left: 23px;
+   top: 4px;
+   }
+
+.logo-1 {
+   width: 55px;
+    height: 51px;
+    position: absolute;
+    left: 0px;
+   top: 0px;
+   }
+
+.pamper-ur-pet {
+   color: #ffffff;
+    text-align: left;
+    font: 400 40px 'Poppins', sans-serif;
+    position: absolute;
+    left: 93px;
+   top: 0px;
+    width: 331px;
+    height: 51px;
+   }
+
+.group-247 {
+   width: 132px;
+    height: 30.97px;
+    position: static;
+   }
+
+.rectangle-32 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 30.97px;
+    position: absolute;
+    left: 882px;
+   top: 11px;
+   }
+
+.inicio {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 889px;
+   top: 16.99px;
+    width: 118.94px;
+    height: 21.11px;
+   }
+
+.group-255 {
+   width: 132px;
+    height: 30.97px;
+    position: static;
+   }
+
+.rectangle-33 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 30.97px;
+    position: absolute;
+    left: 1031px;
+   top: 11px;
+   }
+
+.reservas {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 1038px;
+   top: 16.99px;
+    width: 118.94px;
+    height: 21.11px;
+   }
+
+.group-248 {
+   width: 132px;
+    height: 30.97px;
+    position: static;
+   }
+
+.rectangle-34 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 30.97px;
+    position: absolute;
+    left: 1179px;
+   top: 11px;
+   }
+
+.perfil {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 1186px;
+   top: 16.99px;
+    width: 118.94px;
+    height: 21.11px;
+   }
+
