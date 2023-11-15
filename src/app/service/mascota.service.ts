@@ -13,7 +13,14 @@ export class MascotaService {
   insert(mascota: Mascota) {
     return this.http.post(this.url + 'mascota', mascota);
   }
-  getImages(): Observable<Mascota[]> {
+  getMascotas(): Observable<Mascota[]> {
     return this.http.get<Mascota[]>(this.url + "mascotas");
+  }
+  updateMascota(mas: Mascota, id_mas: number) {
+    return this.http.put(`${this.url}mascotaupdate/${id_mas}`, mas);
+  }
+  deleteMascota(id_mas: number) {
+    id_mas = 1
+    return this.http.delete(`${this.url}mascotadelete/${id_mas}`);
   }
 }

@@ -35,11 +35,41 @@
    background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, rgba(255, 252, 252, 0.41), rgba(255, 252, 252, 0.41));
     border-radius: 50px;
     width: 1193px;
-    height: 737px;
+    height: 541px;
     position: absolute;
     left: 78px;
    top: 154px;
    }
+
+   .frame-76 {
+      background: #ffffff;
+      border-radius: 10px;
+      border-style: solid;
+      border-color: #1e90ff;
+      border-width: 1px;
+      padding: 10px;
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      width: 242px;
+      height: 36px;
+      position: absolute;
+      left: 968px;
+      top: 243px;
+      }
+
+      .reserva-id {
+         color: #000000;
+         text-align: left;
+         font: 600 40px 'Montserrat-SemiBold', sans-serif;
+         position: absolute;
+         left: 714px;
+         top: 237px;
+         width: 262px;
+         height: 48px;
+         }
 
 .rectangle-16 {
    background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, rgba(255, 252, 252, 0.41), rgba(255, 252, 252, 0.41));
@@ -48,7 +78,7 @@
     height: 60px;
     position: absolute;
     left: 373px;
-   top: 750px;
+   top: 477px;
    }
 
 .rectangle-15 {
@@ -58,7 +88,7 @@
     height: 60px;
     position: absolute;
     left: 373px;
-   top: 674px;
+   top: 399px;
    }
 
 .rectangle-14 {
@@ -67,8 +97,8 @@
     width: 302px;
     height: 60px;
     position: absolute;
-    left: 370px;
-   top: 597px;
+    left: 373px;
+   top: 313px;
    }
 
 .rectangle-13 {
@@ -78,7 +108,7 @@
     height: 60px;
     position: absolute;
     left: 373px;
-   top: 522px;
+   top: 235px;
    }
 
 .paseador {
@@ -86,8 +116,8 @@
     text-align: left;
     font: 600 40px 'Montserrat', sans-serif;
     position: absolute;
-    left: 143px;
-   top: 674px;
+    left: 129px;
+   top: 399px;
     width: 222px;
     height: 44px;
    }
@@ -97,8 +127,8 @@
     text-align: left;
     font: 600 40px 'Montserrat', sans-serif;
     position: absolute;
-    left: 254px;
-   top: 605px;
+    left: 198px;
+   top: 321px;
     width: 84px;
     height: 43px;
    }
@@ -108,8 +138,8 @@
     text-align: left;
     font: 400 32px 'Open Sans', sans-serif;
     position: absolute;
-    left: 127px;
-   top: 463px;
+    left: 115px;
+   top: 181px;
    }
 
 .group-114 {
@@ -125,7 +155,7 @@
     height: 47px;
     position: absolute;
     left: 578px;
-   top: 826px;
+   top: 598px;
    }
 
 .modificar {
@@ -134,7 +164,7 @@
     font: 600 16px 'Montserrat', sans-serif;
     position: absolute;
     left: 593.13px;
-   top: 841.14px;
+   top: 613.14px;
     width: 162.85px;
     height: 16.73px;
    }
@@ -263,8 +293,8 @@
     text-align: left;
     font: 600 40px 'Montserrat', sans-serif;
     position: absolute;
-    left: 207px;
-   top: 543px;
+    left: 174px;
+   top: 246px;
     width: 132px;
     height: 37px;
    }
@@ -274,8 +304,8 @@
     text-align: left;
     font: 600 40px 'Montserrat', sans-serif;
     position: absolute;
-    left: 153px;
-   top: 747px;
+    left: 129px;
+   top: 471px;
     width: 212px;
     height: 48px;
    }

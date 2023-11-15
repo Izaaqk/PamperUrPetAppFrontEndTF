@@ -1,4 +1,5 @@
-<!-- For more settings use the AutoHTML plugin tab ... --> 
+<form [formGroup]="form" (submit)="aceptar()">
+    <!-- For more settings use the AutoHTML plugin tab ... --> 
 <div class="frame-65" >
     <div class="grupo-paseadores" >
           <img class="image-21" src="../../../assets/image-312.png" />
@@ -32,8 +33,6 @@ PAMPER UR PET </div>
     <div class="group-146" >
           <div class="rectangle-33" >
           </div>
-          <div class="realizar-pago" >
-REALIZAR PAGO </div>
     </div>
     <div class="frame-22" >
     </div>
@@ -48,10 +47,6 @@ REALIZAR PAGO </div>
     <div class="frame-58" >
     </div>
     <div class="frame-59" >
-    </div>
-    <div class="frame-64" >
-          <div class="roberto-8" >
-Roberto 8 </div>
     </div>
     <div class="frame-60" >
     </div>
@@ -92,26 +87,62 @@ Roberto 8 </div>
     <div class="mascotas">
         <a routerLink="/todos/getmascota">Mascotas</a>
     </div>
-    <div class="roberto-g-mez-1" >
-Roberto Gómez 1 </div>
-    <div class="roberto-g-mez-2" >
-Roberto Gómez 2 </div>
-    <div class="roberto-g-mez-3" >
-Roberto Gómez 3 </div>
-    <div class="roberto-g-mez-4" >
-Roberto Gómez 4 </div>
-    <div class="roberto-1" >
-Roberto 1 </div>
-    <div class="roberto-2" >
-Roberto 2 </div>
-    <div class="roberto-3" >
-Roberto 3 </div>
-    <div class="roberto-4" >
-Roberto 4 </div>
-    <div class="roberto-5" >
-Roberto 5 </div>
-    <div class="roberto-6" >
-Roberto 6 </div>
-    <div class="roberto-7" >
-Roberto 7 </div>
 </div>
+<div class="roberto-g-mez-1">
+    <label for="nombreapellido_pago"></label>
+    <input formControlName="nombreapellido_pago" type="text" id="nombreapellido_pago" placeholder="Nombre y Apellido">
+</div>
+<div class="roberto-g-mez-2">
+    <label for="correo_pago"></label>
+    <input formControlName="correo_pago" type="text" id="correo_pago" placeholder="Correo">
+</div>
+<div class="roberto-g-mez-3">
+    <label for="direccion_pago"></label>
+    <input formControlName="direccion_pago" type="text" id="direccion_pago" placeholder="Dirección">
+</div>
+<div class="roberto-g-mez-4">
+    <label for="distrito_pago"></label>
+    <input formControlName="distrito_pago" type="text" id="distrito_pago" placeholder="Distrito">
+</div>
+<div class="roberto-1">
+    <label for="telefono_pago"></label>
+    <input formControlName="telefono_pago" type="text" id="telefono_pago" placeholder="Teléfono">
+</div>
+<div class="roberto-2">
+    <label for="raza_pago"></label>
+    <input formControlName="raza_pago" type="text" id="raza_pago" placeholder="Raza">
+</div>
+<div class="roberto-3">
+    <label for="añoexpiracion_pago"></label>
+    <input formControlName="añoexpiracion_pago" type="text" id="añoexpiracion_pago" placeholder="Año de Expiración">
+</div>
+<div class="roberto-4">
+    <label for="cvv_pago"></label>
+    <input formControlName="cvv_pago" type="text" id="cvv_pago" placeholder="CVV">
+</div>
+<div class="roberto-5">
+    <label for="mesexpiracion_pago"></label>
+    <input formControlName="mesexpiracion_pago" type="text" id="mesexpiracion_pago" placeholder="Mes de Expiración">
+</div>
+<div class="roberto-6">
+    <label for="numTarjeta_pago"></label>
+    <input formControlName="numTarjeta_pago" type="text" id="numTarjeta_pago" placeholder="Numero de Tarjeta">
+</div>
+<div class="roberto-7">
+    <label for="propietario_pago"></label>
+    <input formControlName="propietario_pago" type="text" id="propietario_pago" placeholder="Propietario">
+</div>
+<div class="frame-64" >
+    <div class="roberto-8">
+        <label for="tarjeta_pago"></label>
+        <input formControlName="tarjeta_pago" type="text" id="tarjeta_pago" placeholder="Tarjeta">
+    </div>
+</div>
+<div class="membresia-id" >
+    Membresia<br/>ID: </div>
+    <div class="frame-76">
+        <label for="idMembresiaSeleccionado">ID de membresía</label>
+        <input formControlName="idMembresiaSeleccionado" type="number" id="idMembresiaSeleccionado" placeholder="ID de membresía">
+    </div>
+<button type="submit" class="realizar-pago">REALIZAR PAGO</button>
+</form>

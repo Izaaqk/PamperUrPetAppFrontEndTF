@@ -208,6 +208,42 @@
    top: 622px;
    }
 
+   .rectangle-100 {
+      background: #fdbd4e;
+      border-radius: 22px;
+      width: 307px;
+      height: 75px;
+      position: absolute;
+      left: 21px;
+      top: 290px;
+      }
+      .rectangle-101 {
+      background: #fdbd4e;
+      border-radius: 22px;
+      width: 307px;
+      height: 75px;
+      position: absolute;
+      left: 21px;
+      top: 438px;
+      }
+
+      .id-de-admin {
+         color: #000000;
+         text-align: center;
+         font: 600 20px 'Montserrat-SemiBold', sans-serif;
+         position: absolute;
+         left: 50px;
+         top: 262px;
+         }
+         .id-de-membres-a {
+         color: #000000;
+         text-align: center;
+         font: 600 20px 'Montserrat-SemiBold', sans-serif;
+         position: absolute;
+         left: 50px;
+         top: 407px;
+         }
+
 .elegir-rol {
    color: #000000;
     text-align: center;

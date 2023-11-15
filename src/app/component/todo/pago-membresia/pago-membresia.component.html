@@ -1,4 +1,5 @@
-<!-- For more settings use the AutoHTML plugin tab ... --> 
+<form [formGroup]="form" (submit)="aceptar()">
+    <!-- For more settings use the AutoHTML plugin tab ... --> 
 <div class="frame-66" >
     <img class="image-98" src="../../../assets/image-325.png" />
     <div class="pago-de-membres-a" >
@@ -25,8 +26,6 @@ Roberto </div>
     <div class="group-145" >
           <div class="rectangle-3" >
           </div>
-          <div class="aceptar" >
-Aceptar </div>
     </div>
     <div class="rectangle-55" >
     </div>
@@ -34,36 +33,24 @@ Aceptar </div>
     </div>
     <div class="rectangle-59" >
     </div>
-    <div class="xxxx-xxxx-xxxx-xxxx" >
-xxxx xxxx xxxx xxxx </div>
     <div class="n-mero-de-tarjeta" >
 Número de tarjeta </div>
     <div class="nombre-completo" >
 Nombre completo </div>
-    <div class="roberto-g-mez" >
-Roberto Gómez </div>
     <div class="membres-a-elegida" >
 Membresía elegida </div>
-    <div class="monto-a-pagar" >
-Monto a pagar: </div>
-    <div class="standard" >
-Standard </div>
+<div class="cvv" >
+    CVV </div>
+<div class="monto-a-pagar" >
+    Monto a Pagar </div>
     <div class="fv" >
 FV </div>
-    <div class="cvv" >
-CVV </div>
     <div class="rectangle-56" >
     </div>
-    <div class="_09-24" >
-09/24 </div>
     <div class="rectangle-57" >
     </div>
     <div class="rectangle-60" >
     </div>
-    <div class="xxx" >
-xxx </div>
-    <div class="s-60-00" >
-s/60.00 </div>
     <img class="image-142" src="../../../assets/image-323.png" />
     <img class="image-143" src="../../../assets/image-324.png" />
     <div class="logo-41" >
@@ -75,38 +62,40 @@ PAMPER UR PET </div>
           <div class="rectangle-32" >
           </div>
     </div>
-    <div class="group-226" >
-          <div class="rectangle-33" >
-          </div>
-    </div>
     <div class="group-227" >
           <div class="rectangle-34" >
           </div>
     </div>
-    <div class="group-228" >
-          <div class="rectangle-35" >
-          </div>
-    </div>
-    <div class="group-229" >
-          <div class="rectangle-36" >
-          </div>
-    </div>
     <div class="inicio">
-        <a routerLink="/todos/bienvenida">Inicio</a>
-    </div>
-    
-    <div class="perfil">
-        <a routerLink="/todos/getpropietario">Perfil</a>
-    </div>
-    
-    <div class="reservas">
-        <a routerLink="/todos/getdeletereserva">Reservas</a>
-    </div>
-    
-    <div class="mascotas">
-        <a routerLink="/todos/getmascota">Mascotas</a>
+        <a routerLink="/todos/landingpage">Inicio</a>
     </div>
     <div class="membres-a2">
         <a routerLink="/todos/pagomembresia">Membresía</a>
     </div>
+    <div class="xxxx-xxxx-xxxx-xxxx">
+        <label for="numerotarjeta_memb"></label>
+        <input formControlName="numerotarjeta_memb" type="text" id="numerotarjeta_memb" placeholder="Número de Tarjeta">
+      </div>
+      <div class="_09-24">
+        <label for="fechavencimiento_memb"></label>
+        <input formControlName="fechavencimiento_memb" type="text" id="fechavencimiento_memb" placeholder="Fecha de Vencimiento">
+      </div>
+      <div class="xxx">
+        <label for="cvv_memb"></label>
+        <input formControlName="cvv_memb" type="text" id="cvv_memb" placeholder="CVV">
+      </div>
+      <div class="roberto-g-mez">
+        <label for="nombrecompleto_memb"></label>
+        <input formControlName="nombrecompleto_memb" type="text" id="nombrecompleto_memb" placeholder="Nombre y Apellido">
+      </div>
+      <div class="standard">
+        <label for="membresiaelegida_memb"></label>
+        <input formControlName="membresiaelegida_memb" type="text" id="membresiaelegida_memb" placeholder="Membresia Elegida">
+      </div>
+      <div class="s-60-00">
+        <label for="montopagar_memb"></label>
+        <input formControlName="montopagar_memb" type="text" id="montopagar_memb" placeholder="Monto a Pagar">
+      </div>
+      <button type="submit" class="aceptar">Aceptar</button>
 </div>
+</form>

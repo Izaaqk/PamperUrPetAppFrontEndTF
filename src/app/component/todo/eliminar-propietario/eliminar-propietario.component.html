@@ -1,70 +1,79 @@
-<!-- For more settings use the AutoHTML plugin tab ... --> 
+<form [formGroup]="form" (submit)="deletePropietario()">
+      <!-- For more settings use the AutoHTML plugin tab ... --> 
 <div class="frame-46" >
-    <div class="group-180" >
-          <img class="image-83" src="../../../assets/image-230.png" />
-          <img class="image-84" src="../../../assets/image-231.png" />
-          <div class="logo-27" >
-                <img class="logo-1" src="../../../assets/logo-1.png" />
+      <div class="group-180" >
+            <img class="image-83" src="../../../assets/image-230.png" />
+            <img class="image-84" src="../../../assets/image-231.png" />
+            <div class="logo-27" >
+                  <img class="logo-1" src="../../../assets/logo-1.png" />
+            </div>
+            <div class="pamper-ur-pet" >
+  PAMPER UR PET </div>
+            <img class="image-85" src="../../../assets/image-232.png" />
+            <div class="group-140" >
+                  <div class="rectangle-3" >
+                  </div>
+                  <div class="eliminar-perfli" >
+  Eliminar Perfli </div>
+            </div>
+            <div class="tu-perfil" >
+  Tu Perfil </div>
+            <div class="frame-30" >
+                  <div class="nombres-y-apellidos" >
+  Nombres y Apellidos </div>
+            </div>
+            <div class="frame-31" >
+                  <div class="n-mero-de-celuar" >
+  Número de celuar </div>
+            </div>
+            <div class="frame-32" >
+                  <div class="correo" >
+  Correo </div>
+            </div>
+            <div class="propietario" >
+  Propietario </div>
+  <div class="roberto-g-mez-bola-os" >
+        {{ nombrePropietario }} </div>
+      <div class="_912345678" >
+        {{ telefonoPropietario}} </div>
+      <div class="roberto-123-gmail-com" >
+        {{ correoPropietario }} </div>
+            <img class="ellipse-13" src="../../../assets/Ellipse-13.png" />
+      </div>
+      <div class="group-236" >
+            <div class="rectangle-32" >
+            </div>
+      </div>
+      <div class="group-237" >
+            <div class="rectangle-33" >
+            </div>
+      </div>
+      <div class="group-238" >
+            <div class="rectangle-34" >
+            </div>
+      </div>
+      <div class="group-239" >
+            <div class="rectangle-35" >
+            </div>
+  <div class="inicio">
+      <a routerLink="/todos/bienvenida">Inicio</a>
+  </div>
+  <div class="perfil">
+      <a routerLink="/todos/getpropietario">perfil</a>
+  </div>
+  <div class="mascotas">
+      <a routerLink="/todos/getmascota">mascotas</a>
+  </div>
+  <div class="reservas">
+        <a routerLink="/todos/getdeletereserva">Reservas</a>
+    </div> 
+    <div class="propietario-id" >
+        Propietario ID: </div>
+        <div class="frame-78">
+              <label for="idPropietarioSeleccionado">ID de propietario</label>
+              <input formControlName="idPropietarioSeleccionado" type="number" id="idPropietarioSeleccionado" placeholder="ID de propietario">
           </div>
-          <div class="pamper-ur-pet" >
-PAMPER UR PET </div>
-          <img class="image-85" src="../../../assets/image-232.png" />
-          <div class="group-140" >
-                <div class="rectangle-3" >
-                </div>
-                <div class="eliminar-perfli" >
-Eliminar Perfli </div>
-          </div>
-          <div class="tu-perfil" >
-Tu Perfil </div>
-          <div class="frame-30" >
-                <div class="nombres-y-apellidos" >
-Nombres y Apellidos </div>
-          </div>
-          <div class="frame-31" >
-                <div class="n-mero-de-celuar" >
-Número de celuar </div>
-          </div>
-          <div class="frame-32" >
-                <div class="correo" >
-Correo </div>
-          </div>
-          <div class="propietario" >
-Propietario </div>
-          <div class="roberto-g-mez-bola-os" >
-Roberto Gómez Bolaños </div>
-          <div class="_912345678" >
-912345678 </div>
-          <div class="roberto-123-gmail-com" >
-roberto123@gmail.com </div>
-          <img class="ellipse-13" src="../../../assets/Ellipse-13.png" />
-    </div>
-    <div class="group-236" >
-          <div class="rectangle-32" >
-          </div>
-    </div>
-    <div class="group-237" >
-          <div class="rectangle-33" >
-          </div>
-    </div>
-    <div class="group-238" >
-          <div class="rectangle-34" >
-          </div>
-    </div>
-    <div class="group-239" >
-          <div class="rectangle-35" >
-          </div>
-<div class="inicio">
-    <a routerLink="/todos/bienvenida">Inicio</a>
-</div>
-<div class="perfil">
-    <a routerLink="/todos/getpropietario">perfil</a>
-</div>
-<div class="mascotas">
-    <a routerLink="/todos/getmascota">mascotas</a>
-</div>
-<div class="reservas">
-      <a routerLink="/todos/getdeletereserva">Reservas</a>
-  </div> 
-    </div>
-</div>
+    <button class="eliminar-perfli" type="button" (click)="deletePropietario()">Eliminar Perfil</button>
+      </div>
+  </div>
+</form>

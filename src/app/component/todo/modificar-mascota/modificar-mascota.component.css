@@ -28,6 +28,36 @@
    top: 0px;
    }
 
+   .frame-21 {
+      background: #ffffff;
+      border-radius: 10px;
+      border-style: solid;
+      border-color: #1e90ff;
+      border-width: 1px;
+      padding: 10px;
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      width: 194px;
+      height: 36px;
+      position: absolute;
+      left: 208px;
+      top: 344px;
+      }
+
+      .mascota-id {
+         color: #000000;
+         text-align: left;
+         font: 400 32px 'OpenSans-Regular', sans-serif;
+         position: absolute;
+         left: 25px;
+         top: 340px;
+         width: 243px;
+         height: 40px;
+         }
+
 .image-38 {
    width: 1920px;
     height: 58px;

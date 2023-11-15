@@ -24,8 +24,6 @@ Paseador 2 </div>
           <div class="paseador-3" >
 Paseador 3 </div>
           <img class="image-29" src="../../../assets/image-29.png" />
-          <div class="bienvenido-roberto" >
-“Bienvenido Roberto” </div>
           <div class="group-92" >
                 <div class="rectangle-32" >
                 </div>
@@ -57,11 +55,12 @@ Paseador 3 </div>
         <div class="reservas">
             <a routerLink="/todos/getdeletereserva">Reservas</a>
         </div>
-        <a routerLink="/todos/getpaseador">
-            <img class="image-27" src="../../../assets/image-27.png" />
-        </a>                        
-          <div class="bienvenido-roberto" >
-“Bienvenido Roberto” </div>
+        <a (click)="onImageClick($event)">
+            <img class="image-27" [src]="imagenRuta" />
+          </a>               
+        <div class="bienvenido-roberto">
+            Bienvenido {{ nombrePropietario }}
+          </div>          
           <div class="group-11" >
                 <div class="rectangle-36" >
                 </div>

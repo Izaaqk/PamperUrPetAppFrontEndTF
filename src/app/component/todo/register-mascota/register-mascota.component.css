@@ -172,6 +172,64 @@
    top: 7px;
    }
 
+   .frame-21 {
+      background: #ffffff;
+      border-radius: 10px;
+      border-style: solid;
+      border-color: #1e90ff;
+      border-width: 1px;
+      padding: 10px;
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      width: 146px;
+      height: 36px;
+      position: absolute;
+      left: 189px;
+      top: 256px;
+      }
+      .frame-22 {
+      background: #ffffff;
+      border-radius: 10px;
+      border-style: solid;
+      border-color: #1e90ff;
+      border-width: 1px;
+      padding: 10px;
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      width: 146px;
+      height: 36px;
+      position: absolute;
+      left: 262px;
+      top: 320px;
+      }
+
+      .propietario-id {
+         color: #000000;
+         text-align: left;
+         font: 400 32px 'OpenSans-Regular', sans-serif;
+         position: absolute;
+         left: 31px;
+         top: 316px;
+         width: 243px;
+         height: 40px;
+         }
+         .admin-id {
+         color: #000000;
+         text-align: left;
+         font: 400 32px 'OpenSans-Regular', sans-serif;
+         position: absolute;
+         left: 31px;
+         top: 252px;
+         width: 243px;
+         height: 40px;
+         }
+
 .logo-35 {
    width: 55px;
     height: 51px;

@@ -1,71 +1,106 @@
-<!-- For more settings use the AutoHTML plugin tab ... --> 
+<form [formGroup]="form" (submit)="aceptar()">
+      <!-- For more settings use the AutoHTML plugin tab ... --> 
 <div class="frame-52" >
-    <div class="group-177" >
-          <div class="grupo-paseadores" >
-                <img class="image-23" src="../../../assets/image-292.png" />
-                <div class="paseador" >
-Paseador: </div>
-                <div class="registrar-reserva" >
-Registrar Reserva </div>
-                <div class="fecha-inicio" >
-Fecha inicio: </div>
-                <div class="fecha-fin" >
-Fecha fin:  </div>
-                <div class="frame-19" >
-                </div>
-                <div class="mascota" >
-Mascota:  </div>
-                <div class="frame-20" >
-                </div>
-                <div class="group-115" >
-                      <div class="rectangle-3" >
-                      </div>
-                </div>
+      <div class="group-177" >
+            <div class="grupo-paseadores" >
+                  <img class="image-23" src="../../../assets/image-292.png" />
+                  <div class="paseador" >
+  Paseador: </div>
+                  <div class="registrar-reserva" >
+  Registrar Reserva </div>
+                  <div class="fecha-inicio" >
+  Fecha inicio: </div>
+                  <div class="fecha-fin" >
+  Fecha fin:  </div>
+                  <div class="mascota" >
+  Mascota:  </div>
+                  <div class="group-115" >
+                        <div class="rectangle-3" >
+                        </div>
+                  </div>
+            </div>
+            <div class="frame-212" >
+            </div>
+            <img class="image-136" src="../../../assets/image-290.png" />
+            <img class="image-137" src="../../../assets/image-291.png" />
+            <div class="logo-38" >
+                  <img class="logo-1" src="../../../assets/logo-1.png" />
+            </div>
+            <div class="pamper-ur-pet" >
+  PAMPER UR PET </div>
+      </div>
+      <div class="group-216" >
+            <div class="rectangle-32" >
+            </div>
+      </div>
+      <div class="group-217" >
+            <div class="rectangle-33" >
+            </div>
+      </div>
+      <div class="group-218" >
+            <div class="rectangle-34" >
+            </div>
+      </div>
+      <div class="group-219" >
+            <div class="rectangle-35" >
+            </div>
+            <div class="inicio">
+              <a routerLink="/todos/bienvenida">Inicio</a>
           </div>
-          <div class="frame-21" >
+          
+          <div class="perfil">
+              <a routerLink="/todos/getpropietario">Perfil</a>
           </div>
-          <div class="frame-212" >
+          
+          <div class="reservas">
+              <a routerLink="/todos/getdeletereserva">Reservas</a>
           </div>
-          <img class="image-136" src="../../../assets/image-290.png" />
-          <img class="image-137" src="../../../assets/image-291.png" />
-          <div class="logo-38" >
-                <img class="logo-1" src="../../../assets/logo-1.png" />
+          
+          <div class="mascotas">
+              <a routerLink="/todos/getmascota">Mascotas</a>
           </div>
-          <div class="pamper-ur-pet" >
-PAMPER UR PET </div>
-    </div>
-    <div class="group-216" >
-          <div class="rectangle-32" >
-          </div>
-    </div>
-    <div class="group-217" >
-          <div class="rectangle-33" >
-          </div>
-    </div>
-    <div class="group-218" >
-          <div class="rectangle-34" >
-          </div>
-    </div>
-    <div class="group-219" >
-          <div class="rectangle-35" >
-          </div>
-          <div class="inicio">
-            <a routerLink="/todos/bienvenida">Inicio</a>
+          <button type="submit" class="registrar">Registrar</button>
+          <div class="frame-23">
+            <label for="fechainicio_reser"></label>
+            <input formControlName="fechainicio_reser" type="text" id="fechainicio_reser" placeholder="Fecha de inicio">
         </div>
-        
-        <div class="perfil">
-            <a routerLink="/todos/getpropietario">Perfil</a>
+        <div class="frame-19">
+            <label for="fechafin_reser"></label>
+            <input formControlName="fechafin_reser" type="text" id="fechafin_reser" placeholder="Fecha Fin">
         </div>
-        
-        <div class="reservas">
-            <a routerLink="/todos/getdeletereserva">Reservas</a>
+        <div class="frame-21">
+            <label for="numeromascotas_mas"></label>
+            <input formControlName="numeromascotas_mas" type="text" id="numeromascotas_mas" placeholder="Número de mascotas">
         </div>
-        
-        <div class="mascotas">
-            <a routerLink="/todos/getmascota">Mascotas</a>
+        <div class="frame-20">
+            <label for="id_pas"></label>
+            <input formControlName="id_pas" type="text" id="id_pas" placeholder="ID de paseador">
         </div>
-        <div class="registrar">
-            <a routerLink="/todos/realizarpagoreserva">Registrar</a>
-        </div>        
-    </div>
-</div>
+        <div class="mascota-id" >
+            Mascota ID: </div>
+            <div class="pago-id" >
+            Pago ID: </div>
+            <div class="paseador-id" >
+            Paseador ID: </div>
+            <div class="propietario-id" >
+            Propietario ID: </div>
+            <div class="frame-72">
+                  <label for="idMascotaSeleccionado">ID de mascota</label>
+                  <input formControlName="idMascotaSeleccionado" type="number" id="idMascotaSeleccionado" placeholder="ID de mascota">
+              </div>
+              <div class="frame-73">
+                  <label for="idPagoSeleccionado">ID de pago</label>
+                  <input formControlName="idPagoSeleccionado" type="number" id="idPagoSeleccionado" placeholder="ID de pago">
+              </div>
+              <div class="frame-74">
+                  <label for="idPaseadorSeleccionado">ID de paseador</label>
+                  <input formControlName="idPaseadorSeleccionado" type="number" id="idPaseadorSeleccionado" placeholder="ID de paseador">
+              </div>
+              <div class="frame-75">
+                  <label for="idPropietarioSeleccionado">ID de propietario</label>
+                  <input formControlName="idPropietarioSeleccionado" type="number" id="idPropietarioSeleccionado" placeholder="ID de propietario">
+              </div>
+      </div>
+  </div>
+
+</form>

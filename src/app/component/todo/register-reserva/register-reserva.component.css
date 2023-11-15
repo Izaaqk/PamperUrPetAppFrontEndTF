@@ -330,4 +330,136 @@
     width: 118.94px;
     height: 21.11px;
    }
+   .frame-72 {
+      background: #ffffff;
+      border-radius: 10px;
+      border-style: solid;
+      border-color: #1e90ff;
+      border-width: 1px;
+      padding: 10px;
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      width: 242px;
+      height: 36px;
+      position: absolute;
+      left: 221px;
+      top: 670px;
+      }
+      .frame-73 {
+      background: #ffffff;
+      border-radius: 10px;
+      border-style: solid;
+      border-color: #1e90ff;
+      border-width: 1px;
+      padding: 10px;
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      width: 242px;
+      height: 36px;
+      position: absolute;
+      left: 221px;
+      top: 747px;
+      }
+      .frame-74 {
+      background: #ffffff;
+      border-radius: 10px;
+      border-style: solid;
+      border-color: #1e90ff;
+      border-width: 1px;
+      padding: 10px;
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      width: 242px;
+      height: 36px;
+      position: absolute;
+      left: 1021px;
+      top: 670px;
+      }
+      .frame-75 {
+      background: #ffffff;
+      border-radius: 10px;
+      border-style: solid;
+      border-color: #1e90ff;
+      border-width: 1px;
+      padding: 10px;
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      width: 242px;
+      height: 36px;
+      position: absolute;
+      left: 1021px;
+      top: 741px;
+      }
+
+      .mascota-id {
+         color: #000000;
+         text-align: left;
+         font: 400 32px 'OpenSans-Regular', sans-serif;
+         position: absolute;
+         left: 38px;
+         top: 666px;
+         width: 202px;
+         height: 40px;
+         }
+         .pago-id {
+         color: #000000;
+         text-align: left;
+         font: 400 32px 'OpenSans-Regular', sans-serif;
+         position: absolute;
+         left: 38px;
+         top: 743px;
+         width: 202px;
+         height: 40px;
+         }
+         .paseador-id {
+         color: #000000;
+         text-align: left;
+         font: 400 32px 'OpenSans-Regular', sans-serif;
+         position: absolute;
+         left: 815px;
+         top: 666px;
+         width: 202px;
+         height: 40px;
+         }
+         .propietario-id {
+         color: #000000;
+         text-align: left;
+         font: 400 32px 'OpenSans-Regular', sans-serif;
+         position: absolute;
+         left: 793px;
+         top: 737px;
+         width: 219px;
+         height: 40px;
+         }
+
+   .frame-23 {
+      background: #ffffff;
+       border-radius: 10px;
+       border-style: solid;
+       border-color: #1e90ff;
+       border-width: 1px;
+       padding: 10px;
+       display: flex;
+       flex-direction: row;
+       gap: 10px;
+       align-items: flex-start;
+       justify-content: flex-start;
+       width: 486px;
+       height: 36px;
+       position: absolute;
+       left: 510px;
+      top: 307px;
+      }
 

@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Propietario } from '../model/propietario';
+import { Paseador } from '../model/paseador';
 import { BehaviorSubject } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 
@@ -31,6 +32,8 @@ export class AuthenticatorService {
       }
     );
   }
+
+  
   
 
   logout() {

@@ -80,6 +80,9 @@ const routes: Routes = [
       },
       {
         path: 'modificarpaseador', component: ModificarPaseadorComponent
+      },
+      {
+        path: 'edicion/:id_reser', component:RegisterReservaComponent
       }
     ]
   }

@@ -7,12 +7,37 @@
           <div class="pamper-ur-pet" >
 PAMPER UR PET </div>
           <img class="image-35" src="../../../assets/image-241.png" />
-          <div class="nombre-luna" >
-Nombre: Luna </div>
-          <div class="raza-golden" >
-Raza: Golden  </div>
-          <div class="edad-2-a-os" >
-Edad: 2 años </div>
+          <div class="nombre-luna">
+            Nombre: {{ mascotas[0].nombre_mas }}
+        </div>
+        <div class="raza-golden">
+            Raza: {{ mascotas[0].raza_mas }}
+        </div>
+        <div class="edad-2-a-os">
+            Edad: {{ mascotas[0].edad_mas }} años
+        </div>
+        <div *ngIf="mascotas.length > 1">
+            <div class="nombre-blacki">
+                  Nombre: {{ mascotas[1].nombre_mas }}
+              </div>
+              <div class="raza-pug">
+                  Raza: {{ mascotas[1].raza_mas }}
+              </div>
+              <div class="edad-8-meses">
+                  Edad: {{ mascotas[1].edad_mas }} meses
+              </div>
+        </div>
+        <div *ngIf="mascotas.length > 2">
+            <div class="nombre-nieve">
+                  Nombre: {{ mascotas[2].nombre_mas }}
+              </div>
+              <div class="raza-samoyedo">
+                  Raza: {{ mascotas[2].raza_mas }}
+              </div>
+              <div class="edad-4-meses">
+                  Edad: {{ mascotas[2].edad_mas }} meses
+              </div>
+        </div>
           <img class="image-43" src="../../../assets/image-242.png" />
           <div class="group-96" >
                 <div class="rectangle-3" >
@@ -43,18 +68,6 @@ Edad: 2 años </div>
                 </div>
           </div>
           <img class="image-44" src="../../../assets/image-243.png" />
-          <div class="nombre-blacki" >
-Nombre: Blacki </div>
-          <div class="raza-pug" >
-Raza: Pug </div>
-          <div class="edad-8-meses" >
-Edad: 8 meses </div>
-          <div class="nombre-nieve" >
-Nombre: Nieve </div>
-          <div class="raza-samoyedo" >
-Raza: Samoyedo  </div>
-          <div class="edad-4-meses" >
-Edad: 4 meses </div>
           <img class="image-46" src="../../../assets/image-244.png" />
           <div class="logo-19" >
                 <img class="logo-1" src="../../../assets/logo-1.png" />

@@ -1,13 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
-import { ActivatedRoute, Params } from '@angular/router';
 import { Propietario } from 'src/app/model/propietario';
-import { Admin } from 'src/app/model/admin';
 import { PropietarioService } from 'src/app/service/propietario.service';
+import { Admin } from 'src/app/model/admin';
 import { AuthenticatorService } from 'src/app/service/authenticator.service';
-import { AdminService } from 'src/app/service/admin.service';
-import { HttpClient } from '@angular/common/http'; // Añade esta importación
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-login-pantalla',
@@ -15,17 +13,15 @@ import { HttpClient } from '@angular/common/http'; // Añade esta importación
   styleUrls: ['./login-pantalla.component.css']
 })
 export class LoginPantallaComponent implements OnInit {
-  admin: Admin = new Admin();
   loginForm: FormGroup;
   mensaje: string = '';
-  id_admin: number = 0;
+  admin: Admin = new Admin();
 
   constructor(
-    private adminService: AdminService,
+    private propietarioService: PropietarioService,
     private authenticatorService: AuthenticatorService,
     private router: Router,
-    private route: ActivatedRoute,
-    private http: HttpClient // Inyecta HttpClient
+    private http: HttpClient
   ) {
     this.loginForm = new FormGroup({
       correo_prop: new FormControl('', [Validators.required]),
@@ -37,49 +33,69 @@ export class LoginPantallaComponent implements OnInit {
     const usuarioAutenticado = this.authenticatorService.getAuthenticatedUser();
     if (usuarioAutenticado) {
       this.router.navigate(['todos/bienvenida']);
+    } else {
+      // Verifica si hay credenciales guardadas
+      const correoGuardado = localStorage.getItem('correoGuardado');
+      const contrasenaGuardada = localStorage.getItem('contrasenaGuardada');
+         
+      if (correoGuardado && contrasenaGuardada) {
+        // Rellena el formulario con las credenciales guardadas
+        this.loginForm.setValue({
+          correo_prop: correoGuardado,
+          contraseña_prop: contrasenaGuardada,
+        });
+      }
     }
-  }
-
-  aceptarAdmin() {
-    // Lógica para insertar automáticamente un ID de administrador en la base de datos
-    const adminId = this.generarIdUnico(); // Debes implementar tu propia lógica para generar un ID único
-
-    // Crear un objeto que contenga los datos del administrador
-    const adminData = {
-      id_admin: adminId
-    };
-
-    // Realizar la solicitud POST al punto final del backend para registrar al administrador
-    this.http.post<any>(`http://localhost:8080/api/admin`, adminData)
-      .subscribe((data) => {
-        // Manejar respuesta después de la inserción, si es necesario
-        this.router.navigate(['todos/modificaradmin']); // Cambia 'otros/mockup' por la ruta de tu otro mockup
-      });
-  }
-
-  // Método para generar un ID de administrador único (puedes personalizarlo según tus necesidades)
-  generarIdUnico(): number {
-    return Math.floor(Math.random() * 1000); // Ejemplo de generación de ID aleatorio
   }
 
   iniciarSesion() {
     if (this.loginForm.valid) {
       const correo = this.loginForm.value.correo_prop;
-      const contraseña = this.loginForm.value.contraseña_prop;
+      const contrasena = this.loginForm.value.contraseña_prop;
 
-      // Llamar al método de inicio de sesión del servicio AuthenticatorService
-      this.authenticatorService.login({ correo_prop: correo, contraseña_prop: contraseña });
+      // Lógica para verificar las credenciales en el servidor (cambia esto por tu propia lógica)
+      const apiUrl = 'http://localhost:8080/api/login';
+      const credentials = { correo_prop: correo, contraseña_prop: contrasena };
 
-      // Suscribirse al Observable para obtener el usuario autenticado
-      this.authenticatorService.getAuthenticatedUserObservable().subscribe((usuarioAutenticado) => {
-        if (usuarioAutenticado) {
-          // Iniciar sesión exitosa, puedes redirigir a la página de inicio.
-          this.router.navigate(['todos/bienvenida']);
-        } else {
-          // Las credenciales son inválidas, muestra un mensaje de error.
-          this.mensaje = 'Credenciales incorrectas. Por favor, inténtalo de nuevo.';
+      this.http.post<Propietario>(apiUrl, credentials).subscribe(
+        (propietario) => {
+          if (propietario) {
+            const nombrePropietario = propietario.nombreapellido_prop;
+            const telefonoPropietario = propietario.telefono_prop;
+            const correoPropietario = propietario.correo_prop;
+            // Las credenciales son válidas, autenticar al usuario
+            this.propietarioService.setNombrePropietario(nombrePropietario);
+            this.propietarioService.setTelefonoPropietario(telefonoPropietario);
+            this.propietarioService.setCorreoPropietario(correoPropietario);
+            this.authenticatorService.login(propietario);
+            this.router.navigate(['todos/bienvenida']);
+          } else {
+            // Las credenciales son inválidas, muestra un mensaje de error
+            this.mensaje = 'Credenciales incorrectas. Por favor, inténtalo de nuevo.';
+          }
+        },
+        () => {
+          // Ocurrió un error durante la autenticación, muestra un mensaje de error
+          this.mensaje = 'Se produjo un error durante la autenticación. Por favor, inténtalo de nuevo.';
         }
-      });
+      );
+    }
+  }
+
+  ingresarComoAdmin() {
+
+    if (this.loginForm.valid) {
+      const adminData = {
+      };
+
+      // Realizar la solicitud POST para registrar la mascota junto con los IDs del administrador y el propietario
+      this.http.post<any>(`http://localhost:8080/api/admin`, adminData)
+        .subscribe((data) => {
+          // Manejar la respuesta del servidor después de la inserción
+          this.router.navigate(['todos/modificaradmin']);
+        });
+    } else {
+      this.mensaje = 'Agregue campos omitidos';
     }
   }
 }

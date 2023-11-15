@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { Mascota } from 'src/app/model/mascota';
 import { HttpClient } from '@angular/common/http';
@@ -13,19 +13,20 @@ export class RegisterMascotaComponent implements OnInit {
   form: FormGroup = new FormGroup({});
   mascota: Mascota = new Mascota();
   mensaje: string = '';
-  idAdminSeleccionado: number = 1; // ID del administrador
-  idPropietarioSeleccionado: number = 2; // ID del propietario
 
   constructor(
     private router: Router,
-    private http: HttpClient
+    private http: HttpClient,
+    private formBuilder: FormBuilder
   ) {}
 
   ngOnInit(): void {
-    this.form = new FormGroup({
+    this.form = this.formBuilder.group({
       nombre_mas: new FormControl('', [Validators.required]),
       raza_mas: new FormControl('', [Validators.required]),
       edad_mas: new FormControl(),
+      idAdminSeleccionado: this.form.value['idAdminSeleccionado'],
+      idPropietarioSeleccionado: this.form.value['idPropietarioSeleccionado']
     });
   }
 
@@ -39,10 +40,12 @@ export class RegisterMascotaComponent implements OnInit {
         nombre_mas: this.mascota.nombre_mas,
         raza_mas: this.mascota.raza_mas,
         edad_mas: this.mascota.edad_mas,
+        idAdminSeleccionado: this.form.value['idAdminSeleccionado'],
+        idPropietarioSeleccionado: this.form.value['idPropietarioSeleccionado']
       };
 
       // Realizar la solicitud POST para registrar la mascota junto con los IDs del administrador y el propietario
-      this.http.post<any>(`http://localhost:8080/api/mascota/${this.idAdminSeleccionado}/${this.idPropietarioSeleccionado}`, mascotaData)
+      this.http.post<any>(`http://localhost:8080/api/mascota/${this.form.value['idAdminSeleccionado']}/${this.form.value['idPropietarioSeleccionado']}`, mascotaData)
         .subscribe((data) => {
           // Manejar la respuesta del servidor después de la inserción
           this.router.navigate(['todos/getmascota']);

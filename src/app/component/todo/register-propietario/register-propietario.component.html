@@ -26,13 +26,13 @@
         </div>
         <div class="rectangle-95" >
         </div>
+        <div class="rectangle-100" >
+        </div>
+        <div class="rectangle-101" >
+        </div>
+        
         <div class="registrarse2" >
     REGISTRARSE </div>
-        <div class="elegir-rol" >
-    Elegir rol </div>
-        <svg class="polygon-1" width="38" height="35" viewBox="0 0 38 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M19 35L2.54552 8.75L35.4545 8.75L19 35Z" fill="black"/>
-        </svg>  
         <div class="group-283" >
               <div class="rectangle-3" >
               </div>
@@ -88,6 +88,21 @@
             <div class="contrase-a">
                 <label for="contraseña_prop"></label>
                 <input formControlName="contraseña_prop" type="password" id="contraseña_prop" placeholder="Contraseña">
+            </div>
+            <div class="elegir-rol">
+                <label for="rol">Elegir Rol:</label>
+                <select formControlName="rol" id="rol">
+                    <option value="propietario">Propietario</option>
+                    <option value="paseador">Paseador</option>
+                </select>
+            </div>
+            <div class="id-de-admin">
+                <label for="idAdminSeleccionado">ID de admin</label>
+                <input formControlName="idAdminSeleccionado" type="number" id="idAdminSeleccionado" placeholder="ID de admin">
+            </div>
+            <div class="id-de-membres-a">
+                <label for="idMembresiaSeleccionado">ID de membresía</label>
+                <input formControlName="idMembresiaSeleccionado" type="number" id="idMembresiaSeleccionado" placeholder="ID de membresía">
             </div>
         </div>
     </div>

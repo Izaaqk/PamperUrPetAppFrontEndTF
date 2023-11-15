@@ -34,11 +34,11 @@ Propietario </div>
 Cerrar sesión </div>
           </div>
           <div class="roberto-g-mez-bola-os" >
-Roberto Gómez Bolaños </div>
+            {{ nombrePropietario }} </div>
           <div class="_987654321" >
-987654321 </div>
+            {{ telefonoPropietario}} </div>
           <div class="roberto-123-gmail-com" >
-roberto123@gmail.com </div>
+            {{ correoPropietario }} </div>
     <div class="group-240" >
           <div class="rectangle-32" >
           </div>
@@ -67,9 +67,6 @@ roberto123@gmail.com </div>
 <div class="membres-a">
     <a routerLink="/todos/pagomembresia">Membresía</a>
 </div>
-<a routerLink="/todos/putpropietario">
-    <img class="ellipse-2" src="../../../assets/Ellipse-2.png" />
-</a>
 <img class="image-60" src="../../../assets/image-213.png" />
 <div class="tu-perfil">
     <a routerLink="/todos/deletepropietario">Tu Perfil</a>
@@ -80,6 +77,9 @@ roberto123@gmail.com </div>
 <div class="reservas">
       <a routerLink="/todos/getdeletereserva">Reservas</a>
   </div> 
+  <a routerLink="/todos/putpropietario">
+      <img class="ellipse-2" [src]="imagenRuta" />
+    </a>    
 </div>
     </div>
 </div>
