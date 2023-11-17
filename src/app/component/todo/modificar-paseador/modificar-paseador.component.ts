@@ -78,7 +78,7 @@ export class ModificarPaseadorComponent implements OnInit{
       };
 
       // Realizar la solicitud POST para registrar la mascota junto con los IDs del administrador y el propietario
-      this.http.put<any>(`http://localhost:8080/api/paseadorupdate/${this.form.value['idPaseadorSeleccionado']}`, paseadorData)
+      this.http.put<any>(`http://13.59.192.42:8080/api/paseadorupdate/${this.form.value['idPaseadorSeleccionado']}`, paseadorData)
         .subscribe((data) => {
           // Manejar la respuesta del servidor después de la inserción
           this.router.navigate(['todos/getpaseador']);

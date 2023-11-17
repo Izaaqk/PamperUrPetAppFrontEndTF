@@ -91,4 +91,99 @@
                      aria-label="Select page of periodic elements">
       </mat-paginator>
     </div>
+    <div class="container2"> <br/>
+      <h1 style="text-align: center;">Listado de Reservas</h1>
+    <mat-grid-list cols="1" rowHeight="4em">
+      <mat-grid-tile>
+          <label for="reservaIdInput">Buscar reserva por id -> </label>
+        <input matInput (keyup) = "filtrar2($event)" placeholder="Buscar" id="reservaIdInput">
+      </mat-grid-tile>
+    </mat-grid-list>
+    <div class="mat-elevation-z8">
+        <table mat-table [dataSource]="dataSource2" matSort>
+      
+          <!-- Position Column -->
+          <ng-container matColumnDef="id_reser">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> ReservaId </th>
+            <td mat-cell *matCellDef="let element"> {{element.id_reser}} </td>
+          </ng-container>
+      
+          <!-- Name Column -->
+          <ng-container matColumnDef="fechainicio_reser">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> Fecha de Inicio de Reserva </th>
+            <td mat-cell *matCellDef="let element"> {{element.fechainicio_reser}} </td>
+          </ng-container>
+      
+          <!-- Weight Column -->
+          <ng-container matColumnDef="fechafin_reser">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> Fecha de Fin de Reserva </th>
+            <td mat-cell *matCellDef="let element"> {{element.fechafin_reser}} </td>
+          </ng-container>
+      
+          <!-- Symbol Column -->
+          <ng-container matColumnDef="numeromascotas_mas">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> Numero de Mascotas </th>
+            <td mat-cell *matCellDef="let element"> {{element.numeromascotas_mas}} </td>
+          </ng-container>
+
+          <ng-container matColumnDef="id_pas">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> ID de Paseador </th>
+            <td mat-cell *matCellDef="let element"> {{element.id_pas}} </td>
+          </ng-container>
+            
+      
+          <tr mat-header-row *matHeaderRowDef="displayedColumns2"></tr>
+          <tr mat-row *matRowDef="let row; columns: displayedColumns2;"></tr>
+        </table>
+      
+        <mat-paginator [pageSizeOptions]="[3, 5, 10]"
+                       showFirstLastButtons
+                       aria-label="Select page of periodic elements">
+        </mat-paginator>
+      </div>
+      <div class="container3"> <br/>
+        <h1 style="text-align: center;">Listado de Mascotas</h1>
+      <mat-grid-list cols="1" rowHeight="4em">
+        <mat-grid-tile>
+            <label for="mascotaIdInput">Buscar mascota por id -> </label>
+          <input matInput (keyup) = "filtrar3($event)" placeholder="Buscar" id="mascotaIdInput">
+        </mat-grid-tile>
+      </mat-grid-list>
+      <div class="mat-elevation-z8">
+          <table mat-table [dataSource]="dataSource3" matSort>
+        
+            <!-- Position Column -->
+            <ng-container matColumnDef="id_mas">
+              <th mat-header-cell *matHeaderCellDef mat-sort-header> MascotaId </th>
+              <td mat-cell *matCellDef="let element"> {{element.id_mas}} </td>
+            </ng-container>
+        
+            <!-- Name Column -->
+            <ng-container matColumnDef="nombre_mas">
+              <th mat-header-cell *matHeaderCellDef mat-sort-header> Nombre de Mascota </th>
+              <td mat-cell *matCellDef="let element"> {{element.nombre_mas}} </td>
+            </ng-container>
+        
+            <!-- Weight Column -->
+            <ng-container matColumnDef="raza_mas">
+              <th mat-header-cell *matHeaderCellDef mat-sort-header> Raza de Mascota</th>
+              <td mat-cell *matCellDef="let element"> {{element.raza_mas}} </td>
+            </ng-container>
+        
+            <!-- Symbol Column -->
+            <ng-container matColumnDef="edad_mas">
+              <th mat-header-cell *matHeaderCellDef mat-sort-header> Edad de Mascota </th>
+              <td mat-cell *matCellDef="let element"> {{element.edad_mas}} </td>
+            </ng-container>
+              
+        
+            <tr mat-header-row *matHeaderRowDef="displayedColumns3"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns3;"></tr>
+          </table>
+        
+          <mat-paginator [pageSizeOptions]="[3, 5, 10]"
+                         showFirstLastButtons
+                         aria-label="Select page of periodic elements">
+          </mat-paginator>
+        </div>
   </div> 

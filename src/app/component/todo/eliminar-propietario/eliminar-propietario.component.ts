@@ -52,7 +52,7 @@ export class EliminarPropietarioComponent implements OnInit{
     if (this.form.valid) {
       const idPropietario = this.form.value['idPropietarioSeleccionado'];
 
-      this.http.delete<any>(`http://localhost:8080/api/propietariodelete/${idPropietario}`)
+      this.http.delete<any>(`http://13.59.192.42:8080/api/propietariodelete/${idPropietario}`)
         .subscribe(
           () => {
             // Éxito: Puedes realizar acciones adicionales después de eliminar la reserva

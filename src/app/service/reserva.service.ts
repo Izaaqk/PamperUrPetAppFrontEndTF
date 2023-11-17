@@ -1,12 +1,15 @@
 import { Injectable } from '@angular/core';
 import { Reserva } from '../model/reserva';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { Observable, Subject } from 'rxjs';
+import { enviroment } from 'src/enviroments/enviroment';
+const base_url = enviroment.base
 @Injectable({
   providedIn: 'root'
 })
 export class ReservaService {
-  private url = "http://localhost:8080/api/";
+  private url = `${base_url}` 
+  private listaCambio = new Subject<Reserva[]>();
 
   constructor(private http: HttpClient) { }
 
@@ -30,5 +33,11 @@ export class ReservaService {
   }
   listIdReserva(id_reser:number){
     return this.http.get<Reserva>(this.url+"reservas/"+id_reser);
+  }
+  setList(listaNueva : Reserva[]){
+    this.listaCambio.next(listaNueva);//enviar la nueva lista a los suscriptores
+  }
+  getList(){
+    return this.listaCambio.asObservable();
   }
 }

@@ -3,12 +3,13 @@ import { Paseador } from '../model/paseador';
 import { HttpClient } from '@angular/common/http';
 import { Observable, Subject } from 'rxjs';
 import { BehaviorSubject } from 'rxjs';
-
+import { enviroment } from 'src/enviroments/enviroment';
+const base_url = enviroment.base
 @Injectable({
   providedIn: 'root'
 })
 export class PaseadorService {
-  private url = "http://localhost:8080/api/";
+  private url = `${base_url}` 
   private nombrePaseadorSource = new BehaviorSubject<string>('');
   nombrePaseador$ = this.nombrePaseadorSource.asObservable();
   private telefonoPaseadorSource = new BehaviorSubject<string>('');

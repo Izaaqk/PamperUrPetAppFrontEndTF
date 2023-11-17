@@ -64,7 +64,7 @@ export class GetdeleteReservaComponent implements OnInit {
     if (this.form.valid) {
       const idReserva = this.form.value['idReservaSeleccionado'];
 
-      this.http.delete<any>(`http://localhost:8080/api/reservadelete/${idReserva}`)
+      this.http.delete<any>(`http://13.59.192.42:8080/api/reservadelete/${idReserva}`)
         .subscribe(
           () => {
             // Éxito: Puedes realizar acciones adicionales después de eliminar la reserva

@@ -3,6 +3,8 @@ import { Propietario } from '../model/propietario';
 import { Paseador } from '../model/paseador';
 import { BehaviorSubject } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
+import { enviroment } from 'src/enviroments/enviroment';
+const base_url = enviroment.base
 
 @Injectable({
   providedIn: 'root'
@@ -13,7 +15,7 @@ export class AuthenticatorService {
   constructor(private http: HttpClient) {}
 
   login(credentials: { correo_prop: string; contraseña_prop: number }) {
-    const apiUrl = 'http://localhost:8080/api/login'; // Asegúrate de que la ruta sea la correcta
+    const apiUrl = `${base_url}`  // Asegúrate de que la ruta sea la correcta
 
     // Realiza la lógica de autenticación aquí, verifica las credenciales en el servidor.
     this.http.post<Propietario>(apiUrl, credentials).subscribe(

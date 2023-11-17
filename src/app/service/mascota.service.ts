@@ -1,12 +1,15 @@
 import { Injectable } from '@angular/core';
 import { Mascota } from '../model/mascota';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { Observable, Subject } from 'rxjs';
+import { enviroment } from 'src/enviroments/enviroment';
+const base_url = enviroment.base
 @Injectable({
   providedIn: 'root'
 })
 export class MascotaService {
-  private url = "http://localhost:8080/api/";
+  private url = `${base_url}` 
+  private listaCambio = new Subject<Mascota[]>();
 
   constructor(private http: HttpClient) { }
 
@@ -26,5 +29,11 @@ export class MascotaService {
   deleteMascota(id_mas: number) {
     id_mas = 1
     return this.http.delete(`${this.url}mascotadelete/${id_mas}`);
+  }
+  setList(listaNueva : Mascota[]){
+    this.listaCambio.next(listaNueva);//enviar la nueva lista a los suscriptores
+  }
+  getList(){
+    return this.listaCambio.asObservable();
   }
 }
