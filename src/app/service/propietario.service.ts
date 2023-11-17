@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Propietario } from '../model/propietario';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { Observable, Subject } from 'rxjs';
 import { BehaviorSubject } from 'rxjs';
 
 @Injectable({
@@ -15,6 +15,7 @@ export class PropietarioService {
   telefonoPropietario$ = this.telefonoPropietarioSource.asObservable();
   private correoPropietarioSource = new BehaviorSubject<string>('');
   correoPropietario$ = this.correoPropietarioSource.asObservable();
+  private listaCambio = new Subject<Propietario[]>();
 
   constructor(private http: HttpClient) { }
 
@@ -36,5 +37,11 @@ export class PropietarioService {
   }
   getPropietarios(): Observable<Propietario[]> {
     return this.http.get<Propietario[]>(this.url + "propietarios");
+  }
+  setList(listaNueva : Propietario[]){
+    this.listaCambio.next(listaNueva);//enviar la nueva lista a los suscriptores
+  }
+  getList(){
+    return this.listaCambio.asObservable();
   }
 }

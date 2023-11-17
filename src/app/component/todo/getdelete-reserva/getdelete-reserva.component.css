@@ -655,6 +655,34 @@
     left: 864px;
    top: 16px;
    }
+      .search {
+         width: 45.27px;
+         height: 37.52px;
+         position: absolute;
+         left: 912.71px;
+         top: 90.74px;
+         overflow: visible;
+         }
+         .qu-estas-buscando {
+            color: #073d4f;
+            text-align: left;
+            font: 300 14px 'Montserrat-Light', sans-serif;
+            position: absolute;
+            left: 582.87px;
+            top: 97.44px;
+            width: 265.16px;
+            height: 22.78px;
+            }
+            .rectangle-4 {
+               background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ffffff, #ffffff);
+               border-radius: 20px;
+               width: 422px;
+               height: 67px;
+               position: absolute;
+               left: 557px;
+               top: 76px;
+               }
+
 
 .reservas2 {
    color: #ffffff;

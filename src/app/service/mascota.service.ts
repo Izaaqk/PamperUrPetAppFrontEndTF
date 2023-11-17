@@ -16,6 +16,10 @@ export class MascotaService {
   getMascotas(): Observable<Mascota[]> {
     return this.http.get<Mascota[]>(this.url + "mascotas");
   }
+  getMascota(id_mas: number): Observable<Mascota> {
+    const apiUrl = `${this.url}mascotas/${id_mas}`;
+    return this.http.get<Mascota>(apiUrl);
+  }
   updateMascota(mas: Mascota, id_mas: number) {
     return this.http.put(`${this.url}mascotaupdate/${id_mas}`, mas);
   }

@@ -26,7 +26,20 @@ import { PagoMembresiaComponent } from './component/todo/pago-membresia/pago-mem
 import { ModificarAdminComponent } from './component/todo/modificar-admin/modificar-admin.component';
 import { GetPaseadorComponent } from './component/todo/get-paseador/get-paseador.component';
 import { ModificarPaseadorComponent } from './component/todo/modificar-paseador/modificar-paseador.component';
-
+import { ReportePropietarioComponent } from './component/todo/reporte-propietario/reporte-propietario.component';
+import { DialogoComponent } from './component/todo/reporte-propietario/dialogo/dialogo.component';
+import { MatSelectModule } from '@angular/material/select';
+import { MatGridListModule } from '@angular/material/grid-list';
+import {MatDialogModule} from '@angular/material/dialog';
+import { MatToolbarModule} from '@angular/material/toolbar';
+import { MatMomentDateModule } from '@angular/material-moment-adapter';
+import { MatNativeDateModule} from '@angular/material/core';
+import { MatTableModule} from '@angular/material/table';
+import { MatPaginatorModule} from '@angular/material/paginator';
+import { MatButtonModule} from '@angular/material/button';
+import { MatInputModule} from '@angular/material/input';
+import { MatSortModule } from '@angular/material/sort';
+import { MatDatepickerModule } from '@angular/material/datepicker'
 @NgModule({
   declarations: [
     AppComponent,
@@ -49,15 +62,30 @@ import { ModificarPaseadorComponent } from './component/todo/modificar-paseador/
     PagoMembresiaComponent,
     ModificarAdminComponent,
     GetPaseadorComponent,
-    ModificarPaseadorComponent
+    ModificarPaseadorComponent,
+    ReportePropietarioComponent,
+    DialogoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     ReactiveFormsModule,
+    MatDialogModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    MatMomentDateModule,
+    MatSelectModule,
+    MatGridListModule,
+    MatInputModule,
+    MatDatepickerModule,
+    MatNativeDateModule, //falto adicionar
+    MatToolbarModule,
+    MatTableModule,
+    MatButtonModule,
+    MatSortModule,
+    MatPaginatorModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

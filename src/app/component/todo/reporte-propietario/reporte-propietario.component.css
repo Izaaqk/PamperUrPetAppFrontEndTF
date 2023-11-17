@@ -1,0 +1,13 @@
+.container,
+.container1 {
+  background-color: rgb(249, 249, 121);
+  padding: 20px; /* Ajusta el relleno según tus preferencias */
+  margin: 10px; /* Ajusta el margen según tus preferencias */
+  border-radius: 10px; /* Ajusta el radio del borde según tus preferencias */
+}
+
+.volver-btn {
+    position: absolute;
+    top: 10px; /* Ajusta la posición vertical según tus preferencias */
+    left: 10px; /* Ajusta la posición horizontal según tus preferencias */
+  }

@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Paseador } from '../model/paseador';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { Observable, Subject } from 'rxjs';
 import { BehaviorSubject } from 'rxjs';
 
 @Injectable({
@@ -15,6 +15,7 @@ export class PaseadorService {
   telefonoPaseador$ = this.telefonoPaseadorSource.asObservable();
   private correoPaseadorSource = new BehaviorSubject<string>('');
   correoPaseador$ = this.correoPaseadorSource.asObservable();
+  private listaCambio = new Subject<Paseador[]>();
 
   constructor(private http: HttpClient) { }
 
@@ -31,7 +32,13 @@ export class PaseadorService {
   insert(paseador: Paseador) {
     return this.http.post(this.url + 'paseador', paseador);
   }
-  getPropietarios(): Observable<Paseador[]> {
+  getPaseadores(): Observable<Paseador[]> {
     return this.http.get<Paseador[]>(this.url + "paseadores");
+  }
+  setList(listaNueva : Paseador[]){
+    this.listaCambio.next(listaNueva);//enviar la nueva lista a los suscriptores
+  }
+  getList(){
+    return this.listaCambio.asObservable();
   }
 }

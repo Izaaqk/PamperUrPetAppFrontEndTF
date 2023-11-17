@@ -20,6 +20,7 @@ import { PagoMembresiaComponent } from './component/todo/pago-membresia/pago-mem
 import { ModificarAdminComponent } from './component/todo/modificar-admin/modificar-admin.component';
 import { GetPaseadorComponent } from './component/todo/get-paseador/get-paseador.component';
 import { ModificarPaseadorComponent } from './component/todo/modificar-paseador/modificar-paseador.component';
+import { ReportePropietarioComponent } from './component/todo/reporte-propietario/reporte-propietario.component';
 
 const routes: Routes = [
   {
@@ -83,6 +84,9 @@ const routes: Routes = [
       },
       {
         path: 'edicion/:id_reser', component:RegisterReservaComponent
+      },
+      {
+        path: 'reportepropietario', component:ReportePropietarioComponent
       }
     ]
   }

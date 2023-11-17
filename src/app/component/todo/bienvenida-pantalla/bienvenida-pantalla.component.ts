@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { Paseador } from 'src/app/model/paseador';
 import { PropietarioService } from 'src/app/service/propietario.service';
+import { PaseadorService } from 'src/app/service/paseador.service';
 import { SharedDataService } from 'src/app/service/shared-data.service';
 
 
@@ -11,8 +13,11 @@ import { SharedDataService } from 'src/app/service/shared-data.service';
 })
 export class BienvenidaPantallaComponent implements OnInit{
   imagenRuta: string | null = null;
+  paseador1: string = '';
+paseador2: string = '';
+paseador3: string = '';
   nombrePropietario: string = '';
-  constructor(private propietarioService: PropietarioService, private sharedDataService: SharedDataService) {}
+  constructor(private propietarioService: PropietarioService, private sharedDataService: SharedDataService, private paseadorService: PaseadorService) {}
 
   ngOnInit(): void {
     this.propietarioService.nombrePropietario$.subscribe((nombre) => {
@@ -27,6 +32,22 @@ export class BienvenidaPantallaComponent implements OnInit{
         }
       }
     });
+    
+      // Obtener la lista de paseadores desde el servicio
+  this.paseadorService.getPaseadores().subscribe((paseadores) => {
+    // Seleccionar aleatoriamente tres paseadores
+    const paseadoresAleatorios = this.selectRandomPaseadores(paseadores, 3);
+
+    // Asignar los nombres a las propiedades del componente
+    this.paseador1 = paseadoresAleatorios[0]?.nombreapellido_pas || '';
+    this.paseador2 = paseadoresAleatorios[1]?.nombreapellido_pas || '';
+    this.paseador3 = paseadoresAleatorios[2]?.nombreapellido_pas || '';
+  });
+  }
+
+  selectRandomPaseadores(paseadores: Paseador[], count: number): Paseador[] {
+    const shuffled = paseadores.sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, count);
   }
 
   onImageClick(event: any) {

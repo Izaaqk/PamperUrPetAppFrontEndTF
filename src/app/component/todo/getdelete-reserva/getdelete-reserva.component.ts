@@ -32,6 +32,34 @@ export class GetdeleteReservaComponent implements OnInit {
     });
   }
 
+  filtrarReservas() {
+    const idReserva = this.form.get('idReservaSeleccionado')?.value;
+    if (idReserva) {
+      // Filtrar las reservas que coincidan con el ID proporcionado
+      this.reservaService.getReserva(idReserva).subscribe(
+        (reserva) => {
+          this.reservas = [reserva];
+        },
+        (error) => {
+          console.error('Error al filtrar reservas', error);
+        }
+      );
+    } else {
+      // Si el campo está vacío, muestra todas las reservas
+      this.reservaService.getReservas().subscribe(
+        (reservas) => {
+          this.reservas = reservas;
+        },
+        (error) => {
+          console.error('Error al obtener reservas', error);
+        }
+      );
+    }
+  }
+  
+  
+  
+
   deleteReserva() {
     if (this.form.valid) {
       const idReserva = this.form.value['idReservaSeleccionado'];

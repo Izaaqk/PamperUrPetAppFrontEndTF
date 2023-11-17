@@ -1,4 +1,5 @@
-<!-- For more settings use the AutoHTML plugin tab ... --> 
+<form [formGroup]="form">
+    <!-- For more settings use the AutoHTML plugin tab ... --> 
 <div class="frame-47" >
     <div class="group-134" >
           <div class="group-169" >
@@ -127,5 +128,15 @@ PAMPER UR PET </div>
 <div class="reservas">
       <a routerLink="/todos/getdeletereserva">Reservas</a>
   </div> 
+  <div class="rectangle-4">
+    <label for="idMascotaSeleccionado">Filtro Mascota por ID:</label>
+    <input formControlName="idMascotaSeleccionado" type="number" id="idMascotaSeleccionado" placeholder="ID de mascota" (keyup)="filtrarMascotas()">
+  </div>
+<div class="qu-estas-buscando" >
+       </div>
+      <svg class="search" width="46" height="39" viewBox="0 0 46 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M21.2087 8.48999C26.0412 8.48999 29.9587 12.4075 29.9587 17.24C29.9587 19.3862 29.1861 21.3519 27.9037 22.8741L34.7391 29.7097C35.032 30.0026 35.032 30.4774 34.7391 30.7703C34.4728 31.0366 34.0561 31.0608 33.7625 30.8429L33.6784 30.7703L26.8428 23.935C25.3206 25.2173 23.3549 25.99 21.2087 25.99C16.3762 25.99 12.4587 22.0725 12.4587 17.24C12.4587 12.4075 16.3762 8.48999 21.2087 8.48999ZM21.2087 9.98999C17.2047 9.98999 13.9587 13.2359 13.9587 17.24C13.9587 21.2441 17.2047 24.49 21.2087 24.49C25.2128 24.49 28.4587 21.2441 28.4587 17.24C28.4587 13.2359 25.2128 9.98999 21.2087 9.98999Z" fill="#212121"/>
+            </svg>
     </div>
 </div>
+</form>

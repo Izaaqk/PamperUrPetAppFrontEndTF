@@ -216,6 +216,16 @@
   <div class="modificar-datos3">
       <a routerLink="/todos/putreserva">Modificar datos</a>
   </div>
+  <div class="rectangle-4">
+      <label for="idReservaSeleccionado">Filtro Reserva por ID:</label>
+      <input formControlName="idReservaSeleccionado" type="number" id="idReservaSeleccionado" placeholder="ID de reserva" (keyup)="filtrarReservas()">
+    </div>
+    
+  <div class="qu-estas-buscando" >
+       </div>
+      <svg class="search" width="46" height="39" viewBox="0 0 46 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M21.2087 8.49023C26.0412 8.49023 29.9587 12.4077 29.9587 17.2402C29.9587 19.3864 29.1861 21.3521 27.9037 22.8743L34.7391 29.7099C35.032 30.0028 35.032 30.4777 34.7391 30.7706C34.4728 31.0368 34.0561 31.061 33.7625 30.8432L33.6784 30.7706L26.8428 23.9352C25.3206 25.2176 23.3549 25.9902 21.2087 25.9902C16.3762 25.9902 12.4587 22.0727 12.4587 17.2402C12.4587 12.4077 16.3762 8.49023 21.2087 8.49023ZM21.2087 9.99023C17.2047 9.99023 13.9587 13.2362 13.9587 17.2402C13.9587 21.2443 17.2047 24.4902 21.2087 24.4902C25.2128 24.4902 28.4587 21.2443 28.4587 17.2402C28.4587 13.2362 25.2128 9.99023 21.2087 9.99023Z" fill="#212121"/>
+      </svg>
   <div class="reserva-id" >
         Reserva ID: </div>
         <div class="frame-76">

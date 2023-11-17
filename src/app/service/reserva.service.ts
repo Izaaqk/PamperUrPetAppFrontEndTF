@@ -20,6 +20,7 @@ export class ReservaService {
     const apiUrl = `${this.url}reservas/${id_reser}`;
     return this.http.get<Reserva>(apiUrl);
   }
+  
   updateReserva(reser: Reserva, id_reser: number) {
     return this.http.put(`${this.url}reservaupdate/${id_reser}`, reser);
   }
