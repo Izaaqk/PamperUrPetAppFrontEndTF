@@ -230,6 +230,36 @@
          height: 40px;
          }
 
+         .paseador-id {
+            color: #000000;
+            text-align: left;
+            font: 400 32px 'OpenSans-Regular', sans-serif;
+            position: absolute;
+            left: 31px;
+            top: 384px;
+            width: 243px;
+            height: 40px;
+            }
+
+            .frame-23 {
+               background: #ffffff;
+               border-radius: 10px;
+               border-style: solid;
+               border-color: #1e90ff;
+               border-width: 1px;
+               padding: 10px;
+               display: flex;
+               flex-direction: row;
+               gap: 10px;
+               align-items: flex-start;
+               justify-content: flex-start;
+               width: 146px;
+               height: 36px;
+               position: absolute;
+               left: 239px;
+               top: 388px;
+               }
+
 .logo-35 {
    width: 55px;
     height: 51px;

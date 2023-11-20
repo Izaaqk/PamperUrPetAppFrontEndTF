@@ -26,7 +26,8 @@ export class RegisterMascotaComponent implements OnInit {
       raza_mas: new FormControl('', [Validators.required]),
       edad_mas: new FormControl(),
       idAdminSeleccionado: this.form.value['idAdminSeleccionado'],
-      idPropietarioSeleccionado: this.form.value['idPropietarioSeleccionado']
+      idPropietarioSeleccionado: this.form.value['idPropietarioSeleccionado'],
+      idPaseadorSeleccionado: this.form.value['idPaseadorSeleccionado']
     });
   }
 
@@ -41,11 +42,12 @@ export class RegisterMascotaComponent implements OnInit {
         raza_mas: this.mascota.raza_mas,
         edad_mas: this.mascota.edad_mas,
         idAdminSeleccionado: this.form.value['idAdminSeleccionado'],
-        idPropietarioSeleccionado: this.form.value['idPropietarioSeleccionado']
+        idPropietarioSeleccionado: this.form.value['idPropietarioSeleccionado'],
+        idPaseadorSeleccionado: this.form.value['idPaseadorSeleccionado']
       };
 
       // Realizar la solicitud POST para registrar la mascota junto con los IDs del administrador y el propietario
-      this.http.post<any>(`http://13.59.192.42:8080/api/mascota/${this.form.value['idAdminSeleccionado']}/${this.form.value['idPropietarioSeleccionado']}`, mascotaData)
+      this.http.post<any>(`http://18.216.74.240:8080/api/mascota/${this.form.value['idAdminSeleccionado']}/${this.form.value['idPropietarioSeleccionado']}/${this.form.value['idPaseadorSeleccionado']}`, mascotaData)
         .subscribe((data) => {
           // Manejar la respuesta del servidor después de la inserción
           this.router.navigate(['todos/getmascota']);

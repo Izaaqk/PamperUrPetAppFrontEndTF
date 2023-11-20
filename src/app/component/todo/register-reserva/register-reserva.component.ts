@@ -78,7 +78,7 @@ export class RegisterReservaComponent implements OnInit{
       };
 
       // Realizar la solicitud POST para registrar la mascota junto con los IDs del administrador y el propietario
-      this.http.post<any>(`http://13.59.192.42:8080/api/reserva/${this.form.value['idPagoSeleccionado']}/${this.form.value['idPaseadorSeleccionado']}/${this.form.value['idPropietarioSeleccionado']}/${this.form.value['idMascotaSeleccionado']}`, reservaData)
+      this.http.post<any>(`http://18.216.74.240:8080/api/reserva/${this.form.value['idPagoSeleccionado']}/${this.form.value['idPaseadorSeleccionado']}/${this.form.value['idPropietarioSeleccionado']}/${this.form.value['idMascotaSeleccionado']}`, reservaData)
         .subscribe((data) => {
           // Manejar la respuesta del servidor después de la inserción
           this.router.navigate(['todos/getdeletereserva']);

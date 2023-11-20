@@ -1,5 +1,6 @@
 import { Admin } from "./admin";
 import { Propietario } from "./propietario";
+import { Paseador } from "./paseador";
 
 export class Mascota{
     id_mas: number = 0;
@@ -8,4 +9,5 @@ export class Mascota{
     edad_mas: number = 0;
     admin!: Admin
     propietario!: Propietario
+    paseador!: Paseador
 }

@@ -71,7 +71,7 @@ export class RegisterPropietarioComponent implements OnInit {
         };
 
         // Realizar la solicitud POST al punto final del backend para registrar al propietario
-        this.http.post<any>(`http://13.59.192.42:8080/api/propietario/${this.form.value['idAdminSeleccionado']}/${this.form.value['idMembresiaSeleccionado']}`, propietarioData)
+        this.http.post<any>(`http://18.216.74.240:8080/api/propietario/${this.form.value['idAdminSeleccionado']}/${this.form.value['idMembresiaSeleccionado']}`, propietarioData)
           .subscribe((data) => {
             // Manejar la respuesta del servidor después de la inserción
             const nombrePropietario = data.nombreapellido_prop;
@@ -111,7 +111,7 @@ export class RegisterPropietarioComponent implements OnInit {
         };
 
         // Realizar la solicitud POST al punto final del backend para registrar al paseador
-        this.http.post<any>(`http://13.59.192.42:8080/api/paseador/${this.form.value['idAdminSeleccionado']}`, paseadorData)
+        this.http.post<any>(`http://18.216.74.240:8080/api/paseador/${this.form.value['idAdminSeleccionado']}`, paseadorData)
           .subscribe((data) => {
             // Manejar la respuesta del servidor después de la inserción del paseador
             const nombrePaseador = data.nombreapellido_pas;
