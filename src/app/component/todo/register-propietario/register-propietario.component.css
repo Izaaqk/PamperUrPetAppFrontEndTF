@@ -103,7 +103,8 @@
    }
 
 .guardar {
-   color: #ffffff;
+    background-color: #f0950d;
+    color: #000000;
     text-align: center;
     font: 600 16px 'Montserrat', sans-serif;
     position: absolute;
