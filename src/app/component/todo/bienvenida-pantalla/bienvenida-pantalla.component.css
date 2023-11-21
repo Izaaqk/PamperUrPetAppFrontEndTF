@@ -293,7 +293,7 @@
    }
 
 .rectangle-36 {
-   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ffffff, #ffffff);
+   background: linear-gradient(to left, rgba(201, 18, 18, 0.2), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ffffff, #ffffff);
     border-radius: 20px;
     width: 422px;
     height: 67px;
@@ -303,7 +303,7 @@
    }
 
 .qu-estas-buscando {
-   color: #073d4f;
+   color: #45bce4;
     text-align: left;
     font: 300 14px 'Montserrat', sans-serif;
     position: absolute;
