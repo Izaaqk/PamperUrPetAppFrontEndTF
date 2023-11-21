@@ -162,7 +162,7 @@
    }
 
 .cancelar {
-   color: #ffffff;
+   color: rgb(255, 255, 255);
     text-align: center;
     font: 600 16px 'Montserrat', sans-serif;
     position: absolute;
@@ -207,7 +207,7 @@
    }
 
 .mascotas {
-   color: #ffffff;
+   color: #339b8d;
     text-align: center;
     font: 600 16px 'Montserrat', sans-serif;
     position: absolute;
