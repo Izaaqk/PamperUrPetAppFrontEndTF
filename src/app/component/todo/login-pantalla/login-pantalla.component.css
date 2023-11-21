@@ -141,6 +141,7 @@
    }
 
 .ingresar-como-admin {
+   background-color: #f0950d;
    color: #000000;
     text-align: center;
     font: 600 16px 'Montserrat', sans-serif;
@@ -336,6 +337,7 @@
     height: 39px;
    }
    .ingresar-como-admin2 {
+    background-color: #f0950d;
     color: #000000;
     text-align: center;
     font: 600 16px 'Montserrat', sans-serif;
