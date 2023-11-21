@@ -43,8 +43,8 @@
 .rectangle-3 {
    background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
     border-radius: 50px;
-    width: 132px;
-    height: 30.97px;
+    width: 130px;
+    height: 31px;
     position: absolute;
     left: 865px;
    top: 13px;
@@ -56,9 +56,9 @@
     font: 600 16px 'Montserrat', sans-serif;
     position: absolute;
     left: 872px;
-   top: 18.99px;
-    width: 118.94px;
-    height: 21.11px;
+   top: 19px;
+    width: 19px;
+    height: 21px;
    }
 
 .logo-15 {
