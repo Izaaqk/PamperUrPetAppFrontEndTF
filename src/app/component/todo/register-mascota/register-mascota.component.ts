@@ -47,7 +47,7 @@ export class RegisterMascotaComponent implements OnInit {
       };
 
       // Realizar la solicitud POST para registrar la mascota junto con los IDs del administrador y el propietario
-      this.http.post<any>(`http://18.216.74.240:8080/api/mascota/${this.form.value['idAdminSeleccionado']}/${this.form.value['idPropietarioSeleccionado']}/${this.form.value['idPaseadorSeleccionado']}`, mascotaData)
+      this.http.post<any>(`http://3.22.172.205:8080/api/mascota/${this.form.value['idAdminSeleccionado']}/${this.form.value['idPropietarioSeleccionado']}/${this.form.value['idPaseadorSeleccionado']}`, mascotaData)
         .subscribe((data) => {
           // Manejar la respuesta del servidor después de la inserción
           this.router.navigate(['todos/getmascota']);

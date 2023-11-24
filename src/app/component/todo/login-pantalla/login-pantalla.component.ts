@@ -54,7 +54,7 @@ export class LoginPantallaComponent implements OnInit {
       const contrasena = this.loginForm.value.contraseña_prop;
 
       // Lógica para verificar las credenciales en el servidor (cambia esto por tu propia lógica)
-      const apiUrl = 'http://18.216.74.240:8080/api/login';
+      const apiUrl = 'http://3.22.172.205:8080/api/login';
       const credentials = { correo_prop: correo, contraseña_prop: contrasena };
 
       this.http.post<Propietario>(apiUrl, credentials).subscribe(
@@ -84,7 +84,7 @@ export class LoginPantallaComponent implements OnInit {
 
   ingresarComoAdmin() {
     // Realizar la solicitud POST para registrar un nuevo administrador
-    this.http.post<any>(`http://18.216.74.240:8080/api/admin`, {})
+    this.http.post<any>(`http://3.22.172.205:8080/api/admin`, {})
       .subscribe((data) => {
         // Manejar la respuesta del servidor después de la inserción
         this.router.navigate(['todos/modificaradmin']);

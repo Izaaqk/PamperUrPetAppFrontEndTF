@@ -69,7 +69,7 @@ export class RealizarPagoreservaComponent implements OnInit{
       };
 
       // Realizar la solicitud POST para registrar la mascota junto con los IDs del administrador y el propietario
-      this.http.post<any>(`http://18.216.74.240:8080/api/pago/${this.form.value['idMembresiaSeleccionado']}`, pagoData)
+      this.http.post<any>(`http://3.22.172.205:8080/api/pago/${this.form.value['idMembresiaSeleccionado']}`, pagoData)
         .subscribe((data) => {
           // Manejar la respuesta del servidor después de la inserción
           this.router.navigate(['todos/registerreserva']);
